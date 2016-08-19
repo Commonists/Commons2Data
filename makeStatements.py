@@ -1,21 +1,23 @@
 import json
-import argparse
-import os
-#os.path.join("item", "truc.txt")
+# import os
+# os.path.join("item", "truc.txt")
 
-#statements = ["P571\t+1887-01-01T00:00:00Z/9"]
+# statements = ["P571\t+1887-01-01T00:00:00Z/9"]
+
 
 def loads_items_petscan(input_file):
     with open(input_file) as json_data:
         items_json = json.load(json_data)
         item = [line['q']
                 for line in items_json['*'][0]['a']['*']]
-    return item
+        return item
+
 
 def loads_items_query(input_file):
     with open(input_file) as json_data:
         items = json.load(json_data)
-    return items
+        return items
+
 
 def loads_items(source):
     if(source == "query"):
@@ -25,6 +27,7 @@ def loads_items(source):
     else:
         raise ValueError("Only supported sources are query and petsan")
 
+
 def loads_statements(source):
     if(source == "query"):
         return loads_statements_query
@@ -33,17 +36,20 @@ def loads_statements(source):
     else:
         raise ValueError("Only supported sources are query and petsan")
 
+
 def loads_statements_petscan(input_statements):
     with open(input_statements) as data:
         statements = data.readlines()
     return statements
+
 
 def loads_statements_query(input_statements):
     with open(input_statements) as data:
             statements = json.load(data)
     return statements
 
-def generates_codes_petscan(items, statements):
+
+def generates_code_petscan(items, statements):
     """Generate code associating all statements to each item
 
     Args:
@@ -64,8 +70,10 @@ def generates_codes_petscan(items, statements):
             lines.append("%s\t%s" % (item, statement))
     return "".join(lines)
 
+
 def q(item):
-    return item["item"][31:] #removes http://www.wikidata.org/entity/
+    return item["item"][31:]  # removes http://www.wikidata.org/entity/
+
 
 def generates_code_query(items, statements):
     lines = []
@@ -75,13 +83,15 @@ def generates_code_query(items, statements):
                 lines.append("%s\t%s" % (q(item), statements[key]))
     return "\n".join(lines)
 
+
 def generates_code(source):
-    if(source == "query"):
+    if source == "query":
         return generates_code_query
-    if(source == "petscan"):
+    if source == "petscan":
         return generates_code_petscan
     else:
         raise ValueError("Only supported sources are query and petsan")
+
 
 def main():
     from argparse import ArgumentParser
@@ -108,6 +118,7 @@ def main():
     lines = generates_code(args.source)(items, statements)
     with open(output_file, 'w') as output:
         output.write(lines)
+
 
 if __name__ == "__main__":
     main()
