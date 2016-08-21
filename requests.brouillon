@@ -1,9 +1,0 @@
-C catégorie à explorer
-p profondeur à explorer
-
-Tous les éléments Wikidata dont
-    la catégorie Commons OU
-    l'interwiki Commons OU
-    l'une des catégories de l'image
-        est sous-catégorie de C à profondeur p
-
