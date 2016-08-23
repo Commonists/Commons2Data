@@ -1,36 +1,51 @@
 import json
 import requests
+import pywikibot
+from pywikibot import page
 
-def loads_items_petscan(input_file):
-    with open(input_file) as json_data:
-        items_json = json.load(json_data)
-        item = [line['q']
-        for line in items_json['*'][0]['a']['*']]
-        return item
+commons = pywikibot.Site('commons', 'commons')
+commonsedge = "https://tools.wmflabs.org/commonsedge/api.php?file="
 
+commons = pywikibot.Site('commons', 'commons')
+commonsedge = "https://tools.wmflabs.org/commonsedge/api.php?file="
 
-def loads_items_query(input_file):
-    with open(input_file) as json_data:
-        items = json.load(json_data)
-        return items
+def loads_items(category, depth=3):
+    items = []
+    pages = sub(category, depth)
+    for page in pages:
+        it = item(page)
+        if it[0]:
+            items.append(it[1])
+    return items
 
-def load(source):
-    if(source == "query"):
-        return loads_items_query
-    if(source == "petscan"):
-        return loads_items_petscan
+def sub(category, depth=1):
+    files = page.Category(commons, category).articlesList()
+    if depth <= 0:
+        return files
     else:
-        raise ValueError("Only supported sources are query and petsan")
+        categories = page.Category(commons, category).subcategoriesList()
+        result =  list(files)
+        result = result+categories
+        for cat in categories:
+            result = result+sub(cat.title(), depth-1)
+        return result
 
-def loads_items(category):
-    with open("items.json") as json_data:
-        items_json = json.load(json_data)
-        items = [line['q']
-        for line in items_json[category]['*'][0]['a']['*']]
-        print items
-        return items
-
-def q(fileName):
-    url = "https://tools.wmflabs.org/commonsedge/api.php?file="
-    json=requests.get(url+fileName).json()
-    return json["error_data"]
+def item(page):
+    try:
+        item = page.data_item().title()
+        return [True, item]
+    except pywikibot.NoPage:
+        if page.isImage():
+            json=requests.get(commonsedge+page.title()[5:]).json()
+            if json["status"] == "ERROR":
+                if "Artwork" in json["error"]:
+                    if u'wikidata' in json["error_data"][0]["params"]:
+                        return[True,json["error_data"][0]["params"]["wikidata"][0][0]]
+                    else:
+                        return[False, "No wikidata item"]
+                else:
+                    return[False, "No Artwork template"]
+            else:
+                return [False, "Non-Artwork related error"]
+        else:
+            return [False, "Not a file"]
