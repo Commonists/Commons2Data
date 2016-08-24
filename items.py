@@ -6,7 +6,7 @@ from pywikibot import page
 commons = pywikibot.Site('commons', 'commons')
 commonsedge = "https://tools.wmflabs.org/commonsedge/api.php?file="
 
-def loads_items(category, depth=3):
+def loads_items(category, depth=2):
     items = []
     pages = sub(category, depth)
     for page in pages:
@@ -46,3 +46,5 @@ def item(page):
                 return [False, "Non-Artwork related error"]
         else:
             return [False, "Not a file"]
+    except pywikibot.data.api.APIError:
+        return [False, "API Error"]

@@ -8,6 +8,8 @@ def write(category, items, claims):
     result = []
     for q in items:
         item = pywikibot.ItemPage(repo, q)
+        if item.isRedirectPage():
+            item = item.getRedirectTarget()
         item.get()
         for prop in claims:
             if prop not in item.claims:
