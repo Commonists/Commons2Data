@@ -1,22 +1,22 @@
 import pywikibot
+from pywikibot import page
 
 wikidata = pywikibot.Site('wikidata', 'wikidata')  # any site will work, this is just an example
 repo = wikidata.data_repository()  # this is a DataSite object
 
-def write(category, items, facts):
-    output_file = "output/"+category+".txt"
-    lines = statements(items, facts)
-    with open(output_file, 'w') as output:
-        output.write("\n".join(lines))
-
-def statements(items, facts):
+def write(category, items, claims):
     result = []
     for q in items:
         item = pywikibot.ItemPage(repo, q)
         item.get()
-        for prop in facts:
+        for prop in claims:
             if prop not in item.claims:
-                if("Value" in facts[prop]):
-                    statement = facts[prop]["Value"]
-                    result.append("%s\t%s\t%s" % (q, prop, statement))
-    return result
+                if("Value" in claims[prop]):
+                    target = claims[prop]["Value"]
+                    write_statement(item, prop, target)
+
+def write_statement(item, prop, target):
+    claim = pywikibot.Claim(repo, prop)
+    target = pywikibot.ItemPage(repo, target)
+    claim.setTarget(target)
+    item.addClaim(claim)

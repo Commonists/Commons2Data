@@ -6,9 +6,6 @@ from pywikibot import page
 commons = pywikibot.Site('commons', 'commons')
 commonsedge = "https://tools.wmflabs.org/commonsedge/api.php?file="
 
-commons = pywikibot.Site('commons', 'commons')
-commonsedge = "https://tools.wmflabs.org/commonsedge/api.php?file="
-
 def loads_items(category, depth=3):
     items = []
     pages = sub(category, depth)
