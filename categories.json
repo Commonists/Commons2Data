@@ -1,10 +1,168 @@
 {
+"Works by Vincent van Gogh in the Van Gogh Museum‎ ":{
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P276":{
+        "Value":"Q224124"
+    },
+    "P195":{
+        "Value":"Q224124"
+    },
+},
+"Drawings by Vincent van Gogh":{
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P31":{
+        "Value":"Q93184"
+    }
+},
+"Lithographs by Vincent van Gogh":{
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P31":{
+        "Value":"Q15123870"
+    }
+},
+"Paintings by Vincent van Gogh‎ ":{
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P31":{
+        "Value":"Q3305213"
+    }
+},
+"Van Gogh 1881-83 The Hague‎":{
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P1071":{
+        "Value":"Q36600"
+    }
+},
 "Van Gogh 1886-1887 Paris":{
     "P170":{
         "Value":"Q5582"
     },
     "P1071":{
         "Value":"Q90"
+    }
+},
+"Van Gogh 1888-1889 Arles‎":{
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P1071":{
+        "Value":"Q48292"
+    }
+},
+"Van Gogh 1889-1890 Saint-Rémy‎": {
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P1071":{
+        "Value":"Q221507"
+    }
+},
+"1881 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1881-01-01T00:00:00Z/9"
+    }
+},
+"1882 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1882-01-01T00:00:00Z/9"
+    }
+},
+"1883 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1883-01-01T00:00:00Z/9"
+    }
+},
+"1884 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1884-01-01T00:00:00Z/9"
+    }
+},
+"1885 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1885-01-01T00:00:00Z/9"
+    }
+},
+"1886 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1886-01-01T00:00:00Z/9"
+    }
+},
+"1887 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1887-01-01T00:00:00Z/9"
+    }
+},
+"1888 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1888-01-01T00:00:00Z/9"
+    }
+},
+"1889 paintings by Vincent van Gogh": {
+    "P31":{
+        "Value":"Q3305213"
+    },
+    "P170":{
+        "Value":"Q5582"
+    },
+    "P571":{
+        "Value":"+1889-01-01T00:00:00Z/9"
     }
 },
 "1890 paintings by Vincent van Gogh": {
