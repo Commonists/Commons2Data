@@ -1,10 +1,12 @@
 import json
 import requests
+import re
 import pywikibot
 from pywikibot import page
 
 commons = pywikibot.Site('commons', 'commons')
 commonsedge = "https://tools.wmflabs.org/commonsedge/api.php?file="
+itemExpression = re.compile("Q\d+")
 
 def loads_items(category, depth=2):
     items = []
@@ -25,6 +27,30 @@ def sub(category, depth=1):
         result = result+categories
         for cat in categories:
             result = result+sub(cat.title(), depth-1)
+        return result
+
+def institution(categoryName, height=0, cached=set([])):
+    if categoryName in cached:
+            return None
+    cached.add(categoryName)
+    category = page.Category(commons, categoryName)
+    if height == 0:
+        inst = [i for i in category.articles(namespaces=106)]
+        if len(inst) == 0:
+            return None
+        else:
+            items = itemExpression.findall(inst[0].get())
+            if len(items) == 0:
+                return None
+            else:
+                return items[0]
+    else:
+        result = institution(categoryName, height=0)
+        if result is None:
+            for parent in category.categories():
+                result = institution(parent.title(), height-1,cached)
+                if result is not None:
+                    break
         return result
 
 def item(page):
