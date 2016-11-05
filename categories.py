@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import logging
 import json
 import sys
@@ -5,10 +6,10 @@ import sys
 import pywikibot
 from pywikibot import page
 
-
-
 commons = pywikibot.Site('commons', 'commons')
 tree = {}
+nbCalls = 0
+frequency = 50
 
 # Logger logging on console and in debug
 LOG = logging.getLogger("categories")
@@ -20,36 +21,44 @@ consolehandler.setLevel(LOG_LEVEL)
 LOG.addHandler(consolehandler)
 LOG.setLevel(LOG_LEVEL)
 
+def flush():
+    LOG.info("Writting")
+    with open ("tree.json", "w") as data:
+        json.dump(tree, data)
 
+def included_in(category, parent, depth=4)
 
-def build_tree(category):
+def build_tree(category, with_children=True, with_parents=False):
+    global nbCalls
+    nbCalls = nbCalls + 1
+    if (nbCalls % frequency) == 0:
+        flush()
     if category not in tree:
         node = {}
-        node["Parents"] = [p.title() for p in
+        parents = [p.title() for p in
         page.Category(commons, category).categories()]
+        node["Parents"] = parents
         children = [p.title() for p in
         page.Category(commons, category).subcategories()]
         node["Children"] = children
         tree[category] = node
-        for child in children:
-            LOG.debug("Going through children of %s", child)
-            build_tree(child)
-
+        if with_children:
+            for child in children:
+                build_tree(child, with_children, with_parents)
+        if with_parents:
+            for parent in parents:
+                build_tree(parent, with_children, with_parents)
 
 def main():
-    categories =[
-    u"Drawings by Vincent van Gogh",
-    u"Lithographs by Vincent van Gogh",
-    u"Paintings by Vincent van Gogh",
-    u"Van Gogh works by date",
-    u"Works by Vincent van Gogh by museum"
-    u"Works by Vincent van Gogh by subject"]
-    LOG.info("Building tree")
-    for category in categories:
-        build_tree(category)
-    LOG.info("Writting")
-    with open ("tree.json", "w") as data:
-        json.dump(tree, data)
+    categories =[u"Derivative works of famous art"]
+    with open("tree.json") as data:
+        tree = json.loads(data.read().decode())
+    if len(tree) > 0:
+        LOG.info("Already %d elements",len(tree))
+        LOG.info("Building tree")
+        for category in categories:
+            build_tree(category, with_children=True, with_parents=False)
+        flush()
 
 if __name__ == "__main__":
     main()
