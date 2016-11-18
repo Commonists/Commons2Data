@@ -1,4 +1,7 @@
 throttle.ctrl
 apicache/
+output/
 user-config.py
 test.py
+*.pyc
+pywikibot.lwp
