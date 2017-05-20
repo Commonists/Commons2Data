@@ -26,8 +26,6 @@ def flush():
     with open ("tree.json", "w") as data:
         json.dump(tree, data)
 
-def included_in(category, parent, depth=4)
-
 def build_tree(category, with_children=True, with_parents=False):
     global nbCalls
     nbCalls = nbCalls + 1
@@ -50,9 +48,7 @@ def build_tree(category, with_children=True, with_parents=False):
                 build_tree(parent, with_children, with_parents)
 
 def main():
-    categories =[u"Derivative works of famous art"]
-    with open("tree.json") as data:
-        tree = json.loads(data.read().decode())
+    categories =[u"Paintings by Vincent van Gogh in the Art Institute of Chicago"]
     if len(tree) > 0:
         LOG.info("Already %d elements",len(tree))
         LOG.info("Building tree")
