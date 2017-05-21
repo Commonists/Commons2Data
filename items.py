@@ -1,6 +1,7 @@
 import json
 import requests
 import re
+import types
 import datetime
 from datetime import datetime
 from datetime import timedelta
@@ -38,9 +39,14 @@ def sub(category, depth=1):
             result = result+sub(cat.title(), depth-1)
         return result
 
+def unexpired(date):
+    if isinstance(date,str):
+        return datetime.now() - datetime.strptime(date, dateFormat) > delta
+    else:
+        return  datetime.now() - date > delta
+
 def isExpired(property):
-    return "Timestamp" not in property.keys()
-    or datetime.now() -datetime.strptime(property["Timestamp"], "%Y-%m-%d %H:%M:%s.%Z") > delta
+    return "Timestamp" not in property.keys() or unexpired(property["Timestamp"])
 
 def oldInstitution(categoryName):
     if (categoryName in cache.keys()
@@ -98,6 +104,8 @@ def institutions(categoryName):
             print "Institution found"
     print "Institutions"
     with open("dumpR.json", "w") as data:
+        print "cache"
+        print cache
         data = json.dumps(cache, indent=2)
     return result
 
