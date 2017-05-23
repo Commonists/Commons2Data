@@ -24,16 +24,16 @@ def loads_items(category, depth=2):
             items.append(it[1])
     return items
 
-def sub(category, depth=1):
-    files = page.Category(commons, category).articlesList()
+def sub(categoryName, depth=1):
+    files = page.Category(commons, categoryName).articlesList()
     if depth <= 0:
         return files
     else:
-        categories = page.Category(commons, category).subcategoriesList()
+        categories = page.Category(commons, categoryName).subcategoriesList()
         result =  list(files)
         result = result+categories
         for cat in categories:
-            result = result+sub(cat.title(), depth-1)
+            result = result+sub(cat.title()[9:], depth-1)
         return result
 
 def unexpired(date):
@@ -53,6 +53,22 @@ def oldInstitution(categoryName):
         return cache[categoryName]["Properties"]["P195"]["Value"]
     else:
         return "not found"
+
+def storesFamily(parent, child):
+    if parent in cache.keys():
+        if "Children" in cache[parent]:
+            cache[parent]["Children"].append(child)
+        else:
+            cache[parent]["Children"] = [child]
+    else:
+        cache[parent] = {"Children":[child]}
+    if child in cache.keys():
+        if "Parents" in cache[child]:
+            cache[child]["Parents"].append(parent)
+        else:
+            cache[child]["Parents"] = [parent]
+    else:
+        cache[child]={"Parents":[parent]}
 
 def institution(categoryName, height=4, stores=True):
     result = oldInstitution(categoryName)
@@ -90,8 +106,9 @@ def fill(category, item, result):
 def institutions(categoryName):
     category = page.Category(commons, categoryName)
     for subPage in sub(categoryName):
+        storesFamily(categoryName, subPage.title()[9:])
         if subPage.isCategory():
-            institution(subPage.title(0), stores=True)
+            institution(subPage.title(0)[9:], stores=True)
     with open("dumpR.json", "w") as file:
         data = json.dumps(cache, indent=2)
         file.write(data)
