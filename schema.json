@@ -6,6 +6,9 @@
             "title":"category",
             "type":"object",
             "properties":{
+                "Meta":{
+                    "type":"boolean"
+                }
                 "Parents":{
                     "type":"array",
                     "item":{

@@ -24,9 +24,6 @@ def loads_items(category, depth=2):
             items.append(it[1])
     return items
 
-def now():
-    return {"Timestamp":str(datetime.now())}
-
 def sub(category, depth=1):
     files = page.Category(commons, category).articlesList()
     if depth <= 0:
@@ -58,8 +55,6 @@ def oldInstitution(categoryName):
         return "not found"
 
 def institution(categoryName, height=4, stores=True):
-    print categoryName
-    print height
     result = oldInstitution(categoryName)
     if result == "not found":
         category = page.Category(commons, categoryName)
@@ -77,17 +72,13 @@ def institution(categoryName, height=4, stores=True):
                 if result is not None:
                     break
                 result = institution(parent.title(), height-1)
-        print "Storing"
         fill(categoryName, result, cache)
     else:
-        print "Already found"
         result = None
-    print "result"
-    print result
     return result
 
 def value(item):
-    return {"Value":item,"Timestamp":datetime.now()}
+    return {"Value":item,"Timestamp":str(datetime.now())}
 
 def fill(category, item, result):
     if category not in result.keys() or "P195" not in result[category].keys() or result[category]["P195"]["Value"] is None:
@@ -101,13 +92,10 @@ def institutions(categoryName):
     for subPage in sub(categoryName):
         if subPage.isCategory():
             institution(subPage.title(0), stores=True)
-            print "Institution found"
-    print "Institutions"
-    with open("dumpR.json", "w") as data:
-        print "cache"
-        print cache
+    with open("dumpR.json", "w") as file:
         data = json.dumps(cache, indent=2)
-    return result
+        file.write(data)
+    return cache
 
 def item(page):
     try:

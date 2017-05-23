@@ -3,1078 +3,1824 @@
     "Properties": {
       "P276": {
         "Value": "Q82941"
-      }, 
+      },
       "P195": {
         "Value": "Q82941"
       }
     }
-  }, 
-  "Paintings by Vincent Van Gogh in the Museum Folkwang": {
-    "Properties": {
-      "P276": {
-        "Value": "Q125634"
-      }, 
-      "P195": {
-        "Value": "Q125634"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Mus\u00e9e d'Orsay": {
-    "Properties": {
-      "P276": {
-        "Value": "Q23402"
-      }, 
-      "P195": {
-        "Value": "Q23402"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the National Gallery of Scotland": {
-    "Properties": {
-      "P276": {
-        "Value": "Q942713"
-      }, 
-      "P195": {
-        "Value": "Q942713"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the National Museum of Western Art, Tokyo": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1362629"
-      }, 
-      "P195": {
-        "Value": "Q1362629"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Neue Pinakothek": {
-    "Properties": {
-      "P276": {
-        "Value": "Q170152"
-      }, 
-      "P195": {
-        "Value": "Q170152"
-      }
-    }
-  }, 
-  "Works by Vincent van Gogh in the Van Gogh Museum\u200e ": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P276": {
-        "Value": "Q224124"
-      }, 
-      "P195": {
-        "Value": "Q224124"
-      }
-    }
-  }, 
+  },
   "Paintings by Vincent van Gogh in the Metropolitan Museum of Art": {
     "Properties": {
       "P276": {
         "Value": ""
-      }, 
+      },
       "P195": {
         "Value": ""
       }
     }
-  }, 
+  },
+  "Category:Categories by institution (flat list)": {
+    "Meta":true,
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:38.755000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:38.755000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Mus\u00e9e d'Orsay": {
+    "Properties": {
+      "P276": {
+        "Value": "Q23402"
+      },
+      "P195": {
+        "Value": "Q23402"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the National Gallery of Scotland": {
+    "Properties": {
+      "P276": {
+        "Value": "Q942713"
+      },
+      "P195": {
+        "Value": "Q942713"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the National Museum of Western Art, Tokyo": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1362629"
+      },
+      "P195": {
+        "Value": "Q1362629"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Neue Pinakothek": {
+    "Properties": {
+      "P276": {
+        "Value": "Q170152"
+      },
+      "P195": {
+        "Value": "Q170152"
+      }
+    }
+  },
+  "Works by Vincent van Gogh in the Van Gogh Museum\u200e ": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P276": {
+        "Value": "Q224124"
+      },
+      "P195": {
+        "Value": "Q224124"
+      }
+    }
+  },
+  "Category:Paintings in the Rijksmuseum Amsterdam": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:44.386000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:44.386000",
+        "Value": null
+      }
+    }
+  },
+  "Category:People of Dordrecht": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:34.009000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:34.009000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent Van Gogh in the Museum Folkwang": {
+    "Properties": {
+      "P276": {
+        "Value": "Q125634"
+      },
+      "P195": {
+        "Value": "Q125634"
+      }
+    }
+  },
   "1885 paintings by Vincent van Gogh": {
     "Properties": {
       "P170": {
         "Value": "Q5582"
-      }, 
+      },
       "P31": {
         "Value": "Q3305213"
-      }, 
+      },
       "P571": {
         "Value": "+1885-01-01T00:00:00Z/9"
       }
     }
-  }, 
-  "Paintings by Vincent van Gogh in the Barnes Foundation": {
+  },
+  "Category:Dutch Golden Age paintings in the Mauritshuis": {
     "Properties": {
       "P276": {
-        "Value": "Q808462"
-      }, 
+        "Timestamp": "2017-05-23 11:52:30.308000",
+        "Value": "Q221092"
+      },
       "P195": {
-        "Value": "Q808462"
+        "Timestamp": "2017-05-23 11:52:30.308000",
+        "Value": "Q221092"
       }
     }
-  }, 
-  "Paintings by Vincent van Gogh in the Indianapolis Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1117704"
-      }, 
-      "P195": {
-        "Value": "Q1117704"
-      }
-    }
-  }, 
-  "1884 paintings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1884-01-01T00:00:00Z/9"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Centraal Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q260913"
-      }, 
-      "P195": {
-        "Value": "Q260913"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the National Gallery, London": {
-    "Properties": {
-      "P276": {
-        "Value": "Q180788"
-      }, 
-      "P195": {
-        "Value": "Q180788"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the N\u00e1rodn\u00ed galerie v Praze": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1419555"
-      }, 
-      "P195": {
-        "Value": "Q1419555"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in Kunstmuseum Bern": {
-    "Properties": {
-      "P276": {
-        "Value": "Q194622"
-      }, 
-      "P195": {
-        "Value": "Q194622"
-      }
-    }
-  }, 
-  "Van Gogh 1886-1887 Paris": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P1071": {
-        "Value": "Q90"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the National Gallery of Canada": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1068063"
-      }, 
-      "P195": {
-        "Value": "Q1068063"
-      }
-    }
-  }, 
-  "1881 paintings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1881-01-01T00:00:00Z/9"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the National Gallery of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q214867"
-      }, 
-      "P195": {
-        "Value": "Q214867"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Memorial Art Gallery": {
-    "Properties": {
-      "P276": {
-        "Value": "Q6815343"
-      }, 
-      "P195": {
-        "Value": "Q6815343"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Museo Thyssen-Bornemisza": {
-    "Properties": {
-      "P276": {
-        "Value": "Q176251"
-      }, 
-      "P195": {
-        "Value": "Q176251"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Kr\u00f6ller-M\u00fcller Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1051928"
-      }, 
-      "P195": {
-        "Value": "Q1051928"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Sompo Japan Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": ""
-      }, 
-      "P195": {
-        "Value": ""
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Bridgestone Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q913808"
-      }, 
-      "P195": {
-        "Value": "Q913808"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Sammlung Basil P. und Elise Goulandris": {
-    "Properties": {
-      "P276": {
-        "Value": ""
-      }, 
-      "P195": {
-        "Value": ""
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Nelson-Atkins Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1976985"
-      }, 
-      "P195": {
-        "Value": "Q1976985"
-      }
-    }
-  }, 
-  "Drawings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q93184"
-      }
-    }
-  }, 
-  "Self portrait by Vincent van Gogh (F345)": {
-    "Parents": [
-      "Men facing left in art", 
-      "Oil paintings by Vincent van Gogh", 
-      "Paintings by Vincent van Gogh by name", 
-      "Paintings by Vincent van Gogh in the Art Institute of Chicago", 
-      "Pointillism paintings by Vincent Van Gogh", 
-      "Portrait paintings by Vincent van Gogh, Paris 1887", 
-      "Self-portrait paintings by Vincent van Gogh"
-    ], 
-    "Properties": {}, 
-    "Children": []
-  }, 
-  "Paintings by Vincent van Gogh in the Van Gogh Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q224124"
-      }, 
-      "P195": {
-        "Value": "Q224124"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Hiroshima Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q63828"
-      }, 
-      "P195": {
-        "Value": "Q63828"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Yamagata Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": ""
-      }, 
-      "P195": {
-        "Value": ""
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Baltimore Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q377579"
-      }, 
-      "P195": {
-        "Value": "Q377579"
-      }
-    }
-  }, 
-  "Bedroom in Arles (Chicago)": {
-    "Parents": [
-      "1889 oil on canvas paintings in the United States", 
-      "Bedroom in Arles", 
-      "Paintings by Vincent van Gogh, Arles 1889", 
-      "Paintings by Vincent van Gogh by name", 
-      "Paintings by Vincent van Gogh in the Art Institute of Chicago"
-    ], 
-    "Properties": {}, 
-    "Children": []
-  }, 
-  "Paintings by Vincent van Gogh in the Kelvingrove Art Gallery and Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1061094"
-      }, 
-      "P195": {
-        "Value": "Q1061094"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in private collections": {
-    "Properties": {
-      "P276": {
-        "Value": ""
-      }, 
-      "P195": {
-        "Value": ""
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Wadsworth Atheneum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q403080"
-      }, 
-      "P195": {
-        "Value": "Q403080"
-      }
-    }
-  }, 
-  "1890 paintings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1890-01-01T00:00:00Z/9"
-      }
-    }
-  }, 
-  "Still Life with Grapes, apples, lemons and pear by Vincent van Gogh": {
-    "Parents": [
-      "Oil still-life paintings with pears", 
-      "Paintings by Vincent van Gogh by name", 
-      "Paintings by Vincent van Gogh in the Art Institute of Chicago", 
-      "Paintings of grapes", 
-      "Paintings of lemons", 
-      "Still-life paintings with apples", 
-      "Still life paintings of food by Vincent van Gogh, Paris 1887"
-    ], 
-    "Properties": {}, 
-    "Children": []
-  }, 
-  "Paintings by Vincent van Gogh in the Fitzwilliam Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1421440"
-      }, 
-      "P195": {
-        "Value": "Q1421440"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Museo Soumaya": {
-    "Properties": {
-      "P276": {
-        "Value": "Q2097646"
-      }, 
-      "P195": {
-        "Value": "Q2097646"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Detroit Institute of Arts": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1201549"
-      }, 
-      "P195": {
-        "Value": "Q1201549"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Saint Louis Art Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1760539"
-      }, 
-      "P195": {
-        "Value": "Q1760539"
-      }
-    }
-  }, 
-  "Collections of the Art Institute of Chicago": {
-    "Properties": {
-      "P276": {
-        "Value": "Q239303"
-      }, 
-      "P195": {
-        "Value": "Q239303"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh, Saint-Remy 1890": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1890-01-01T00:00:00Z/9"
-      }, 
-      "P1071": {
-        "Value": "Q221507"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Tel Aviv Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1267958"
-      }, 
-      "P195": {
-        "Value": "Q1267958"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Nasjonalgalleriet": {
-    "Properties": {
-      "P276": {
-        "Value": "Q3330707"
-      }, 
-      "P195": {
-        "Value": "Q3330707"
-      }
-    }
-  }, 
-  "Van Gogh 1888-1889 Arles\u200e": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P1071": {
-        "Value": "Q48292"
-      }
-    }
-  }, 
-  "Fishing in Spring, the Pont de Clichy": {
-    "Parents": [
-      "Asni\u00e8res, Vincent van Van Gogh serie", 
-      "Historical images of Pont de Clichy", 
-      "Paintings by Vincent van Gogh by name", 
-      "Paintings by Vincent van Gogh in the Art Institute of Chicago", 
-      "Paintings of Paris suburbs by Vincent van Gogh, 1887", 
-      "Paintings of bridges in Paris", 
-      "Pont de Clichy"
-    ], 
-    "Properties": {}, 
-    "Children": []
-  }, 
-  "Paintings by Vincent van Gogh in the Cleveland Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q657415"
-      }, 
-      "P195": {
-        "Value": "Q657415"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Hermitage": {
-    "Properties": {
-      "P276": {
-        "Value": ""
-      }, 
-      "P195": {
-        "Value": ""
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Civica galleria d'arte moderna (Milan)": {
-    "Properties": {
-      "P276": {
-        "Value": "Q3757721"
-      }, 
-      "P195": {
-        "Value": "Q3757721"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Art Gallery of New South Wales": {
-    "Properties": {
-      "P276": {
-        "Value": "Q705551"
-      }, 
-      "P195": {
-        "Value": "Q705551"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Princeton University Art Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q2603905"
-      }, 
-      "P195": {
-        "Value": "Q2603905"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh\u200e ": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Fogg Art Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q809600"
-      }, 
-      "P195": {
-        "Value": "Q809600"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Hammer Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q677561"
-      }, 
-      "P195": {
-        "Value": "Q677561"
-      }
-    }
-  }, 
-  "The Drinkers": {
-    "Parents": [
-      "Paintings by Vincent van Gogh, Saint-R\u00e9my 1890", 
-      "Paintings by Vincent van Gogh by name", 
-      "Paintings by Vincent van Gogh in the Art Institute of Chicago", 
-      "Portrait paintings by Vincent van Gogh"
-    ], 
-    "Properties": {}, 
-    "Children": []
-  }, 
-  "Paintings by Vincent van Gogh in National Museum Cardiff": {
-    "Properties": {
-      "P276": {
-        "Value": "Q2046319"
-      }, 
-      "P195": {
-        "Value": "Q2046319"
-      }
-    }
-  }, 
-  "Van Gogh 1889-1890 Saint-R\u00e9my\u200e": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P1071": {
-        "Value": "Q221507"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Mus\u00e9e Rodin": {
-    "Properties": {
-      "P276": {
-        "Value": "Q650519"
-      }, 
-      "P195": {
-        "Value": "Q650519"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Stedelijk Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q924335"
-      }, 
-      "P195": {
-        "Value": "Q924335"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Yale University Art Gallery": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1568434"
-      }, 
-      "P195": {
-        "Value": "Q1568434"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Carnegie Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1043967"
-      }, 
-      "P195": {
-        "Value": "Q1043967"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Palais des Beaux-Arts de Lille": {
-    "Properties": {
-      "P276": {
-        "Value": ""
-      }, 
-      "P195": {
-        "Value": ""
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Kunstmuseum Basel": {
-    "Properties": {
-      "P276": {
-        "Value": "Q194626"
-      }, 
-      "P195": {
-        "Value": "Q194626"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Kunsthalle Bremen": {
-    "Properties": {
-      "P276": {
-        "Value": "Q693591"
-      }, 
-      "P195": {
-        "Value": "Q693591"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Museum Boijmans Van Beuningen": {
-    "Properties": {
-      "P276": {
-        "Value": "Q679527"
-      }, 
-      "P195": {
-        "Value": "Q679527"
-      }
-    }
-  }, 
-  "Paintings in the Dallas Museum of Art by Vincent van Gogh": {
-    "Properties": {
-      "P276": {
-        "Value": "Q745866"
-      }, 
-      "P195": {
-        "Value": "Q745866"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in Toledo Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1743116"
-      }, 
-      "P195": {
-        "Value": "Q1743116"
-      }
-    }
-  }, 
-  "Paintings by Van Gogh in the Pushkin Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q4872"
-      }, 
-      "P195": {
-        "Value": "Q4872"
-      }
-    }
-  }, 
-  "1883 paintings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1883-01-01T00:00:00Z/9"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Philadelphia Museum of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q510324"
-      }, 
-      "P195": {
-        "Value": "Q510324"
-      }
-    }
-  }, 
-  "Lithographs by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q15123870"
-      }
-    }
-  }, 
-  "Van Gogh 1881-83 The Hague\u200e": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P1071": {
-        "Value": "Q36600"
-      }
-    }
-  }, 
-  "1888 paintings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1888-01-01T00:00:00Z/9"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Nationalmuseum Stockholm": {
-    "Properties": {
-      "P276": {
-        "Value": "Q842858"
-      }, 
-      "P195": {
-        "Value": "Q842858"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Museo Nacional de Bellas Artes (Argentina)": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1848918"
-      }, 
-      "P195": {
-        "Value": "Q1848918"
-      }
-    }
-  }, 
-  "1882 paintings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1882-01-01T00:00:00Z/9"
-      }
-    }
-  }, 
-  "1889 paintings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1889-01-01T00:00:00Z/9"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Galleria Nazionale d'Arte Moderna": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1492387"
-      }, 
-      "P195": {
-        "Value": "Q1492387"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Courtauld Institute of Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q734266"
-      }, 
-      "P195": {
-        "Value": "Q734266"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Virginia Museum of Fine Arts": {
-    "Properties": {
-      "P276": {
-        "Value": "Q4013975"
-      }, 
-      "P195": {
-        "Value": "Q4013975"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Museum of Modern Art": {
-    "Properties": {
-      "P276": {
-        "Value": "Q188740"
-      }, 
-      "P195": {
-        "Value": "Q188740"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Kunstmuseum Winterthur": {
-    "Properties": {
-      "P276": {
-        "Value": "Q650299"
-      }, 
-      "P195": {
-        "Value": "Q650299"
-      }
-    }
-  }, 
-  "Paintings in the Phillips Collection by Vincent van Gogh": {
-    "Properties": {
-      "P276": {
-        "Value": "Q578485"
-      }, 
-      "P195": {
-        "Value": "Q578485"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Rijksmuseum Amsterdam": {
-    "Properties": {
-      "P276": {
-        "Value": "Q190804"
-      }, 
-      "P195": {
-        "Value": "Q190804"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Von-der-Heydt-Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q819504"
-      }, 
-      "P195": {
-        "Value": "Q819504"
-      }
-    }
-  }, 
-  "1887 paintings by Vincent van Gogh": {
-    "Properties": {
-      "P170": {
-        "Value": "Q5582"
-      }, 
-      "P31": {
-        "Value": "Q3305213"
-      }, 
-      "P571": {
-        "Value": "+1887-01-01T00:00:00Z/9"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in Kunsthaus Z\u00fcrich": {
-    "Properties": {
-      "P276": {
-        "Value": "Q685038"
-      }, 
-      "P195": {
-        "Value": "Q685038"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Haags Gemeentemuseum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1499958"
-      }, 
-      "P195": {
-        "Value": "Q1499958"
-      }
-    }
-  }, 
-  "Paintings by Vincent van Gogh in the Museum of Fine Arts, Boston": {
-    "Properties": {
-      "P276": {
-        "Value": ""
-      }, 
-      "P195": {
-        "Value": ""
-      }
-    }
-  }, 
+  },
   "1886 paintings by Vincent van Gogh": {
     "Properties": {
       "P170": {
         "Value": "Q5582"
-      }, 
+      },
       "P31": {
         "Value": "Q3305213"
-      }, 
+      },
       "P571": {
         "Value": "+1886-01-01T00:00:00Z/9"
       }
     }
-  }, 
-  "Paintings by Vincent van Gogh in Tate Modern": {
+  },
+  "Category:Categories requiring permanent diffusion to zero": {
     "Properties": {
       "P276": {
-        "Value": "Q193375"
-      }, 
+        "Timestamp": "2017-05-23 11:52:38.398000",
+        "Value": null
+      },
       "P195": {
-        "Value": "Q193375"
+        "Timestamp": "2017-05-23 11:52:38.398000",
+        "Value": null
       }
     }
-  }, 
-  "Paintings by Vincent van Gogh in the Albright-Knox Gallery": {
+  },
+  "Paintings by Vincent van Gogh in the Barnes Foundation": {
     "Properties": {
       "P276": {
-        "Value": "Q1970945"
-      }, 
+        "Value": "Q808462"
+      },
       "P195": {
-        "Value": "Q1970945"
+        "Value": "Q808462"
       }
     }
-  }, 
-  "La Berceuse by Vincent van Gogh (Art Institute of Chicago)": {
+  },
+  "Paintings by Vincent van Gogh in the Indianapolis Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1117704"
+      },
+      "P195": {
+        "Value": "Q1117704"
+      }
+    }
+  },
+  "1884 paintings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1884-01-01T00:00:00Z/9"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Centraal Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q260913"
+      },
+      "P195": {
+        "Value": "Q260913"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the National Gallery, London": {
+    "Properties": {
+      "P276": {
+        "Value": "Q180788"
+      },
+      "P195": {
+        "Value": "Q180788"
+      }
+    }
+  },
+  "Category:Mauritshuis": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:30.307000",
+        "Value": "Q221092"
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:30.307000",
+        "Value": "Q221092"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the N\u00e1rodn\u00ed galerie v Praze": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1419555"
+      },
+      "P195": {
+        "Value": "Q1419555"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in Kunstmuseum Bern": {
+    "Properties": {
+      "P276": {
+        "Value": "Q194622"
+      },
+      "P195": {
+        "Value": "Q194622"
+      }
+    }
+  },
+  "Van Gogh 1886-1887 Paris": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P1071": {
+        "Value": "Q90"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the National Gallery of Canada": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1068063"
+      },
+      "P195": {
+        "Value": "Q1068063"
+      }
+    }
+  },
+  "1881 paintings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1881-01-01T00:00:00Z/9"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the National Gallery of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q214867"
+      },
+      "P195": {
+        "Value": "Q214867"
+      }
+    }
+  },
+  "Category:Dutch Golden Age": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:27.296000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:27.296000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Categories by museum": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:39.805000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:39.805000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Works by artist": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:37.386000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:37.386000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Museo Thyssen-Bornemisza": {
+    "Properties": {
+      "P276": {
+        "Value": "Q176251"
+      },
+      "P195": {
+        "Value": "Q176251"
+      }
+    }
+  },
+  "Category:Paintings in the Museum of Fine Arts, Ghent": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:41.784000",
+        "Value": "Q2365880"
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:41.784000",
+        "Value": "Q2365880"
+      }
+    }
+  },
+  "Category:Paintings": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:37.199000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:37.199000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Kr\u00f6ller-M\u00fcller Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1051928"
+      },
+      "P195": {
+        "Value": "Q1051928"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Sompo Japan Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": ""
+      },
+      "P195": {
+        "Value": ""
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Bridgestone Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q913808"
+      },
+      "P195": {
+        "Value": "Q913808"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Sammlung Basil P. und Elise Goulandris": {
+    "Properties": {
+      "P276": {
+        "Value": ""
+      },
+      "P195": {
+        "Value": ""
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Nelson-Atkins Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1976985"
+      },
+      "P195": {
+        "Value": "Q1976985"
+      }
+    }
+  },
+  "Category:Paintings by Aelbert Cuyp": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:37.386000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:37.386000",
+        "Value": null
+      }
+    }
+  },
+  "Drawings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q93184"
+      }
+    }
+  },
+  "Category:Categories for discussion": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:35.309000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:35.309000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Paintings by country by period": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:27.503000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:27.503000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Paintings from Europe": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:29.150000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:29.150000",
+        "Value": null
+      }
+    }
+  },
+  "Self portrait by Vincent van Gogh (F345)": {
     "Parents": [
-      "La Berceuse", 
-      "Paintings by Vincent van Gogh by name", 
+      "Men facing left in art",
+      "Oil paintings by Vincent van Gogh",
+      "Paintings by Vincent van Gogh by name",
+      "Paintings by Vincent van Gogh in the Art Institute of Chicago",
+      "Pointillism paintings by Vincent Van Gogh",
+      "Portrait paintings by Vincent van Gogh, Paris 1887",
+      "Self-portrait paintings by Vincent van Gogh"
+    ],
+    "Properties": {},
+    "Children": []
+  },
+  "Category:Marine painters": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:33.216000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:33.216000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Van Gogh Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q224124"
+      },
+      "P195": {
+        "Value": "Q224124"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Hiroshima Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q63828"
+      },
+      "P195": {
+        "Value": "Q63828"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Yamagata Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": ""
+      },
+      "P195": {
+        "Value": ""
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Baltimore Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q377579"
+      },
+      "P195": {
+        "Value": "Q377579"
+      }
+    }
+  },
+  "Bedroom in Arles (Chicago)": {
+    "Parents": [
+      "1889 oil on canvas paintings in the United States",
+      "Bedroom in Arles",
+      "Paintings by Vincent van Gogh, Arles 1889",
+      "Paintings by Vincent van Gogh by name",
       "Paintings by Vincent van Gogh in the Art Institute of Chicago"
-    ], 
-    "Properties": {}, 
+    ],
+    "Properties": {},
     "Children": []
-  }, 
-  "Paintings by Vincent van Gogh in the Sammlung E.G. B\u00fchrle\u200e": {
+  },
+  "Paintings by Vincent van Gogh in the Kelvingrove Art Gallery and Museum": {
     "Properties": {
       "P276": {
-        "Value": "Q666331"
-      }, 
+        "Value": "Q1061094"
+      },
       "P195": {
-        "Value": "Q666331"
+        "Value": "Q1061094"
       }
     }
-  }, 
-  "Paintings by Vincent van Gogh in the Art Institute of Chicago": {
+  },
+  "Category:Paintings in the Mauritshuis": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:30.308000",
+        "Value": "Q221092"
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:30.308000",
+        "Value": "Q221092"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in private collections": {
     "Properties": {
       "P276": {
         "Value": ""
-      }, 
+      },
       "P195": {
         "Value": ""
       }
     }
-  }, 
-  "Paintings by Vincent van Gogh in Ny Carlsberg Glyptotek": {
+  },
+  "Paintings by Vincent van Gogh in the Wadsworth Atheneum": {
     "Properties": {
       "P276": {
-        "Value": "Q1140507"
-      }, 
+        "Value": "Q403080"
+      },
       "P195": {
-        "Value": "Q1140507"
+        "Value": "Q403080"
       }
     }
-  }, 
-  "Paintings by Vincent van Gogh in the Pola Museum of Art": {
+  },
+  "1890 paintings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1890-01-01T00:00:00Z/9"
+      }
+    }
+  },
+  "Category:Paintings in the Rijksmuseum Amsterdam by painter": {
     "Properties": {
       "P276": {
-        "Value": "Q1574475"
-      }, 
+        "Timestamp": "2017-05-23 11:52:44.958000",
+        "Value": null
+      },
       "P195": {
-        "Value": "Q1574475"
+        "Timestamp": "2017-05-23 11:52:44.958000",
+        "Value": null
       }
     }
-  }, 
-  "Paintings by Vincent van Gogh in the Norton Simon Museum": {
-    "Properties": {
-      "P276": {
-        "Value": "Q1752085"
-      }, 
-      "P195": {
-        "Value": "Q1752085"
-      }
-    }
-  }, 
-  "Terrace and Observation Deck at the Moulin de Blute-Fin by Vincent van Gogh": {
+  },
+  "Still Life with Grapes, apples, lemons and pear by Vincent van Gogh": {
     "Parents": [
-      "Neo-Impressionist paintings", 
-      "Paintings by Vincent van Gogh by name", 
-      "Paintings by Vincent van Gogh in the Art Institute of Chicago", 
-      "Paintings of the Moulin de la Galette by Vincent van Gogh, 1886", 
-      "Street lights in art"
-    ], 
-    "Properties": {}, 
+      "Oil still-life paintings with pears",
+      "Paintings by Vincent van Gogh by name",
+      "Paintings by Vincent van Gogh in the Art Institute of Chicago",
+      "Paintings of grapes",
+      "Paintings of lemons",
+      "Still-life paintings with apples",
+      "Still life paintings of food by Vincent van Gogh, Paris 1887"
+    ],
+    "Properties": {},
     "Children": []
-  }, 
+  },
+  "Paintings by Vincent van Gogh in the Fitzwilliam Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1421440"
+      },
+      "P195": {
+        "Value": "Q1421440"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Museo Soumaya": {
+    "Properties": {
+      "P276": {
+        "Value": "Q2097646"
+      },
+      "P195": {
+        "Value": "Q2097646"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Haags Gemeentemuseum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1499958"
+      },
+      "P195": {
+        "Value": "Q1499958"
+      }
+    }
+  },
+  "Category:Paintings in the Museum of Fine Arts, Ghent by painter": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:41.784000",
+        "Value": "Q2365880"
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:41.784000",
+        "Value": "Q2365880"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Saint Louis Art Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1760539"
+      },
+      "P195": {
+        "Value": "Q1760539"
+      }
+    }
+  },
+  "Category:Museum of Fine Arts, Ghent": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:41.784000",
+        "Value": "Q2365880"
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:41.784000",
+        "Value": "Q2365880"
+      }
+    }
+  },
+  "Collections of the Art Institute of Chicago": {
+    "Properties": {
+      "P276": {
+        "Value": "Q239303"
+      },
+      "P195": {
+        "Value": "Q239303"
+      }
+    }
+  },
+  "Category:Meta categories": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:35.725000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:35.725000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Dutch paintings in the Rijksmuseum Amsterdam": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:44.386000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:44.386000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh, Saint-Remy 1890": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1890-01-01T00:00:00Z/9"
+      },
+      "P1071": {
+        "Value": "Q221507"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Tel Aviv Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1267958"
+      },
+      "P195": {
+        "Value": "Q1267958"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Nasjonalgalleriet": {
+    "Properties": {
+      "P276": {
+        "Value": "Q3330707"
+      },
+      "P195": {
+        "Value": "Q3330707"
+      }
+    }
+  },
+  "Category:Paintings by painter by museum": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:40.700000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:40.700000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Categories by creator (flat list)": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:34.896000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:34.896000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Paintings in Amsterdam": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:44.194000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:44.194000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Paintings from the Netherlands by museum": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:43.403000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:43.403000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Categories by location": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:39.605000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:39.605000",
+        "Value": null
+      }
+    }
+  },
+  "Van Gogh 1888-1889 Arles\u200e": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P1071": {
+        "Value": "Q48292"
+      }
+    }
+  },
+  "Category:Dutch Golden Age paintings by museum": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:29.150000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:29.150000",
+        "Value": null
+      }
+    }
+  },
+  "Category:1691 deaths": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:32.406000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:32.406000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Draughtsmen from the Northern Netherlands (before 1830)": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:33.014000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:33.014000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Collections of paintings by museum": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:28.114000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:28.114000",
+        "Value": null
+      }
+    }
+  },
+  "Category:1620 births": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:32.201000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:32.201000",
+        "Value": null
+      }
+    }
+  },
+  "Fishing in Spring, the Pont de Clichy": {
+    "Parents": [
+      "Asni\u00e8res, Vincent van Van Gogh serie",
+      "Historical images of Pont de Clichy",
+      "Paintings by Vincent van Gogh by name",
+      "Paintings by Vincent van Gogh in the Art Institute of Chicago",
+      "Paintings of Paris suburbs by Vincent van Gogh, 1887",
+      "Paintings of bridges in Paris",
+      "Pont de Clichy"
+    ],
+    "Properties": {},
+    "Children": []
+  },
+  "Paintings by Vincent van Gogh in the Cleveland Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q657415"
+      },
+      "P195": {
+        "Value": "Q657415"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Hermitage": {
+    "Properties": {
+      "P276": {
+        "Value": ""
+      },
+      "P195": {
+        "Value": ""
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Civica galleria d'arte moderna (Milan)": {
+    "Properties": {
+      "P276": {
+        "Value": "Q3757721"
+      },
+      "P195": {
+        "Value": "Q3757721"
+      }
+    }
+  },
+  "Category:Categories by painter": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:35.091000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:35.091000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Art Gallery of New South Wales": {
+    "Properties": {
+      "P276": {
+        "Value": "Q705551"
+      },
+      "P195": {
+        "Value": "Q705551"
+      }
+    }
+  },
+  "Category:Painters": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:36.162000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:36.162000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Princeton University Art Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q2603905"
+      },
+      "P195": {
+        "Value": "Q2603905"
+      }
+    }
+  },
+  "Category:Paintings by museum by painter": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:39.825000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:39.825000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh\u200e ": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      }
+    }
+  },
+  "Category:Paintings by painter": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:37.386000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:37.386000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Hidden categories": {
+    "Meta":true,
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:38.755000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:38.755000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Fogg Art Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q809600"
+      },
+      "P195": {
+        "Value": "Q809600"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Hammer Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q677561"
+      },
+      "P195": {
+        "Value": "Q677561"
+      }
+    }
+  },
+  "The Drinkers": {
+    "Parents": [
+      "Paintings by Vincent van Gogh, Saint-R\u00e9my 1890",
+      "Paintings by Vincent van Gogh by name",
+      "Paintings by Vincent van Gogh in the Art Institute of Chicago",
+      "Portrait paintings by Vincent van Gogh"
+    ],
+    "Properties": {},
+    "Children": []
+  },
+  "Paintings by Vincent van Gogh in National Museum Cardiff": {
+    "Properties": {
+      "P276": {
+        "Value": "Q2046319"
+      },
+      "P195": {
+        "Value": "Q2046319"
+      }
+    }
+  },
+  "Van Gogh 1881-83 The Hague\u200e": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P1071": {
+        "Value": "Q36600"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Mus\u00e9e Rodin": {
+    "Properties": {
+      "P276": {
+        "Value": "Q650519"
+      },
+      "P195": {
+        "Value": "Q650519"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Stedelijk Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q924335"
+      },
+      "P195": {
+        "Value": "Q924335"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Yale University Art Gallery": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1568434"
+      },
+      "P195": {
+        "Value": "Q1568434"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Carnegie Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1043967"
+      },
+      "P195": {
+        "Value": "Q1043967"
+      }
+    }
+  },
+  "Category:People by name": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:33.811000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:33.811000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Palais des Beaux-Arts de Lille": {
+    "Properties": {
+      "P276": {
+        "Value": ""
+      },
+      "P195": {
+        "Value": ""
+      }
+    }
+  },
+  "Category:Collections of Rijksmuseum Amsterdam": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:44.014000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:44.014000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Paintings by Aelbert Cuyp by museum": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:39.825000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:39.825000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Kunstmuseum Basel": {
+    "Properties": {
+      "P276": {
+        "Value": "Q194626"
+      },
+      "P195": {
+        "Value": "Q194626"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Kunsthalle Bremen": {
+    "Properties": {
+      "P276": {
+        "Value": "Q693591"
+      },
+      "P195": {
+        "Value": "Q693591"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Museum Boijmans Van Beuningen": {
+    "Properties": {
+      "P276": {
+        "Value": "Q679527"
+      },
+      "P195": {
+        "Value": "Q679527"
+      }
+    }
+  },
+  "Category:Paintings by production area": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:28.945000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:28.945000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings in the Dallas Museum of Art by Vincent van Gogh": {
+    "Properties": {
+      "P276": {
+        "Value": "Q745866"
+      },
+      "P195": {
+        "Value": "Q745866"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in Toledo Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1743116"
+      },
+      "P195": {
+        "Value": "Q1743116"
+      }
+    }
+  },
+  "Paintings by Van Gogh in the Pushkin Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q4872"
+      },
+      "P195": {
+        "Value": "Q4872"
+      }
+    }
+  },
+  "Category:Paintings from the Netherlands": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:29.150000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:29.150000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Museums": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:39.805000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:39.805000",
+        "Value": null
+      }
+    }
+  },
+  "1883 paintings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1883-01-01T00:00:00Z/9"
+      }
+    }
+  },
+  "Category:Painters from the Northern Netherlands (before 1830)": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:33.615000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:33.614000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Men by name": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:33.416000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:33.416000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Philadelphia Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q510324"
+      },
+      "P195": {
+        "Value": "Q510324"
+      }
+    }
+  },
+  "Category:Creator template home categories": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:32.806000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:32.806000",
+        "Value": null
+      }
+    }
+  },
+  "Lithographs by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q15123870"
+      }
+    }
+  },
+  "Category:17th-century landscape painters": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:32.602000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:32.602000",
+        "Value": null
+      }
+    }
+  },
+  "Van Gogh 1889-1890 Saint-R\u00e9my\u200e": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P1071": {
+        "Value": "Q221507"
+      }
+    }
+  },
+  "Category:Flat categories": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:38.578000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:38.578000",
+        "Value": null
+      }
+    }
+  },
+  "1888 paintings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1888-01-01T00:00:00Z/9"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Nationalmuseum Stockholm": {
+    "Properties": {
+      "P276": {
+        "Value": "Q842858"
+      },
+      "P195": {
+        "Value": "Q842858"
+      }
+    }
+  },
+  "Category:Painting in the Netherlands": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:28.734000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:28.734000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Museo Nacional de Bellas Artes (Argentina)": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1848918"
+      },
+      "P195": {
+        "Value": "Q1848918"
+      }
+    }
+  },
+  "1882 paintings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1882-01-01T00:00:00Z/9"
+      }
+    }
+  },
+  "1889 paintings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1889-01-01T00:00:00Z/9"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Galleria Nazionale d'Arte Moderna": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1492387"
+      },
+      "P195": {
+        "Value": "Q1492387"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Courtauld Institute of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q734266"
+      },
+      "P195": {
+        "Value": "Q734266"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Virginia Museum of Fine Arts": {
+    "Properties": {
+      "P276": {
+        "Value": "Q4013975"
+      },
+      "P195": {
+        "Value": "Q4013975"
+      }
+    }
+  },
+  "Category:Paintings by Aelbert Cuyp in the Rijksmuseum Amsterdam": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:44.958000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:44.958000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Museum of Modern Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q188740"
+      },
+      "P195": {
+        "Value": "Q188740"
+      }
+    }
+  },
+  "Category:Baroque paintings": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:27.075000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:27.075000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Kunstmuseum Winterthur": {
+    "Properties": {
+      "P276": {
+        "Value": "Q650299"
+      },
+      "P195": {
+        "Value": "Q650299"
+      }
+    }
+  },
+  "Category:Paintings by Aelbert Cuyp in the Museum of Fine Arts, Ghent": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:41.784000",
+        "Value": "Q2365880"
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:41.784000",
+        "Value": "Q2365880"
+      }
+    }
+  },
+  "Category:Paintings by Aelbert Cuyp in the Mauritshuis": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:30.308000",
+        "Value": "Q221092"
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:30.308000",
+        "Value": "Q221092"
+      }
+    }
+  },
+  "Paintings in the Phillips Collection by Vincent van Gogh": {
+    "Properties": {
+      "P276": {
+        "Value": "Q578485"
+      },
+      "P195": {
+        "Value": "Q578485"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Rijksmuseum Amsterdam": {
+    "Properties": {
+      "P276": {
+        "Value": "Q190804"
+      },
+      "P195": {
+        "Value": "Q190804"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Von-der-Heydt-Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q819504"
+      },
+      "P195": {
+        "Value": "Q819504"
+      }
+    }
+  },
+  "1887 paintings by Vincent van Gogh": {
+    "Properties": {
+      "P170": {
+        "Value": "Q5582"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": "+1887-01-01T00:00:00Z/9"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in Kunsthaus Z\u00fcrich": {
+    "Properties": {
+      "P276": {
+        "Value": "Q685038"
+      },
+      "P195": {
+        "Value": "Q685038"
+      }
+    }
+  },
   "Paintings by Vincent van Gogh in the Solomon R. Guggenheim Museum": {
     "Properties": {
       "P276": {
         "Value": "Q201469"
-      }, 
+      },
       "P195": {
         "Value": "Q201469"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Museum of Fine Arts, Boston": {
+    "Properties": {
+      "P276": {
+        "Value": ""
+      },
+      "P195": {
+        "Value": ""
+      }
+    }
+  },
+  "Category:CfD 2016-12": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:35.511000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:35.511000",
+        "Value": null
+      }
+    }
+  },
+  "Category:17th-century paintings from the Netherlands": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:26.873000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:26.873000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Categories by institution": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:39.364000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:39.364000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Detroit Institute of Arts": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1201549"
+      },
+      "P195": {
+        "Value": "Q1201549"
+      }
+    }
+  },
+  "Category:Dutch Golden Age paintings": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:27.503000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:27.503000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Paintings in the Netherlands by museum": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:44.386000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:44.386000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in Tate Modern": {
+    "Properties": {
+      "P276": {
+        "Value": "Q193375"
+      },
+      "P195": {
+        "Value": "Q193375"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Albright-Knox Gallery": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1970945"
+      },
+      "P195": {
+        "Value": "Q1970945"
+      }
+    }
+  },
+  "La Berceuse by Vincent van Gogh (Art Institute of Chicago)": {
+    "Parents": [
+      "La Berceuse",
+      "Paintings by Vincent van Gogh by name",
+      "Paintings by Vincent van Gogh in the Art Institute of Chicago"
+    ],
+    "Properties": {},
+    "Children": []
+  },
+  "Paintings by Vincent van Gogh in the Sammlung E.G. B\u00fchrle\u200e": {
+    "Properties": {
+      "P276": {
+        "Value": "Q666331"
+      },
+      "P195": {
+        "Value": "Q666331"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Art Institute of Chicago": {
+    "Properties": {
+      "P276": {
+        "Value": ""
+      },
+      "P195": {
+        "Value": ""
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in Ny Carlsberg Glyptotek": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1140507"
+      },
+      "P195": {
+        "Value": "Q1140507"
+      }
+    }
+  },
+  "Category:Printmakers from the Northern Netherlands (before 1830)": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:34.224000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:34.224000",
+        "Value": null
+      }
+    }
+  },
+  "Terrace and Observation Deck at the Moulin de Blute-Fin by Vincent van Gogh": {
+    "Parents": [
+      "Neo-Impressionist paintings",
+      "Paintings by Vincent van Gogh by name",
+      "Paintings by Vincent van Gogh in the Art Institute of Chicago",
+      "Paintings of the Moulin de la Galette by Vincent van Gogh, 1886",
+      "Street lights in art"
+    ],
+    "Properties": {},
+    "Children": []
+  },
+  "Category:Dutch Golden Age paintings in the Rijksmuseum Amsterdam": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:44.386000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:44.386000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Norton Simon Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1752085"
+      },
+      "P195": {
+        "Value": "Q1752085"
+      }
+    }
+  },
+  "Category:Aelbert Cuyp": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:34.224000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:34.224000",
+        "Value": null
+      }
+    }
+  },
+  "Category:Paintings by period by museum": {
+    "Properties": {
+      "P276": {
+        "Timestamp": "2017-05-23 11:52:28.115000",
+        "Value": null
+      },
+      "P195": {
+        "Timestamp": "2017-05-23 11:52:28.115000",
+        "Value": null
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Pola Museum of Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1574475"
+      },
+      "P195": {
+        "Value": "Q1574475"
+      }
+    }
+  },
+  "Paintings by Vincent van Gogh in the Memorial Art Gallery": {
+    "Properties": {
+      "P276": {
+        "Value": "Q6815343"
+      },
+      "P195": {
+        "Value": "Q6815343"
       }
     }
   }
