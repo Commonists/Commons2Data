@@ -118,6 +118,3 @@ def item(page):
             return [False, "Not a file"]
     except pywikibot.data.api.APIError:
         return [False, "API Error"]
-
-#institutions("Paintings by Carlo Crivelli by museum")
-institutions("Paintings by Aelbert Cuyp by museum")
