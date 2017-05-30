@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import json
 import requests
 import re
@@ -7,6 +8,7 @@ from datetime import datetime
 from datetime import timedelta
 import pywikibot
 from pywikibot import page
+
 
 commons = pywikibot.Site('commons', 'commons')
 commonsedge = "https://tools.wmflabs.org/commonsedge/api.php?file="
@@ -109,7 +111,7 @@ def institutions(categoryName):
         storesFamily(categoryName, subPage.title()[9:])
         if subPage.isCategory():
             institution(subPage.title(0)[9:], stores=True)
-    with open("dumpR.json", "w") as file:
+    with open("dump.json", "w") as file:
         data = json.dumps(cache, indent=2)
         file.write(data)
     return cache

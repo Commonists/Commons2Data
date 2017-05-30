@@ -3,8 +3,8 @@
 import re
 import json
 import pywikibot
-
 from pywikibot import page
+from items import *
 
 categories={}
 
@@ -33,6 +33,7 @@ def enrich(category):
 
 #category is a String
 #parent is a String
+
 def treat_category(category, parent):
     if category in categories:
         categories[category].update(categories[parent])
@@ -73,26 +74,29 @@ def deep_loading(category):
                 queue.append((sub.title(),child))
 
 def main():
-    categories_list =[
-    u"Drawings by Vincent van Gogh",
-    u"Lithographs by Vincent van Gogh",
-    u"Paintings by Vincent van Gogh",
-    u"Van Gogh works by date",
-    u"Works by Vincent van Gogh by museum"
-    u"Works by Vincent van Gogh by subject"]
-    print ("JSON loading")
-    with open("categories.json") as data:
-        categories = json.loads(data.read())
-    loaded_categories = []
-    print ("Commons loading")
-    for category in categories_list:
-        deep_loading(category)
+#    categories_list =[
+#    u"Drawings by Vincent van Gogh",
+#    u"Lithographs by Vincent van Gogh",
+#    u"Paintings by Vincent van Gogh",
+#    u"Van Gogh works by date",
+#    u"Works by Vincent van Gogh by museum"
+#    u"Works by Vincent van Gogh by subject"]
+#    print ("JSON loading")
+#    with open("categories.json") as data:
+#        categories = json.loads(data.read())
+#    loaded_categories = []
+#    print ("Commons loading")
+#    for category in categories_list:
+#        deep_loading(category)
 #    for category in categories
 #        enrich(category)
-    print ("Writting file")
-    with open ("test.json", "w") as data:
-        json.dump(categories, data)
-    print "Done !"
+#    print ("Writting file")
+#    with open ("test.json", "w") as data:
+#        json.dump(categories, data)
+#    print "Done !"
+    categoryName = u"Paintings by Vincent van Gogh by museum‎ "
+    print categoryName
+    institutions(categoryName)
 
 
 if __name__ == "__main__":
