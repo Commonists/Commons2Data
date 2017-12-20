@@ -2,7 +2,7 @@
 import logging
 import json
 import sys
-
+import requests
 import pywikibot
 from pywikibot import page
 
