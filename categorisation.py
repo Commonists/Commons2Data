@@ -1,4 +1,8 @@
 # coding: utf-8
+from __future__ import unicode_literals
+from __future__ import division
+from __future__ import print_function
+
 import codecs
 import json
 import pywikibot
@@ -15,11 +19,11 @@ itemExpression = re.compile("Q\d+")
 cache = json.loads(open("dump.json").read())
 
 #Properties
-catalog = u"P528"
-inventory = u"P217"
-commonsCat = u"P373"
-imageProperty = u"P18"
-depict = u"P180"
+catalog = "P528"
+inventory = "P217"
+commonsCat = "P373"
+imageProperty = "P18"
+depict = "P180"
 
 duplicates=[depict]
 
@@ -28,7 +32,7 @@ FILE_NAMESPACE = 6
 label_dict={"en":"The Dream", "de":"Der Traum"}
 descr_dict={"en":"Franz Marc painting", "fr":"Peinture de Franz Marc"}
 
-blackList=[u""]
+blackList=[""]
 
 def hidden(category):
     return "Category:Hidden categories" in [c.title() for c in category.categories()]
@@ -62,7 +66,7 @@ def fusion_cat(tempCat,qitem=""):
                             claim.setTarget(pywikibot.WbTime(year=cache[cat]["Properties"][p]["Value"]["Year"]))
                         item.addClaim(claim, summary=u'#Commons2Data adding claim')
             else:
-                print cat
+                print(cat)
     title = label(item)+" (Franz Marc)"
     print_category(item.title(), title, categories)
     categories.append("Category:"+tempCat)
@@ -71,12 +75,12 @@ def fusion_cat(tempCat,qitem=""):
     # Wikidata
     claim = pywikibot.Claim(repo, imageProperty)
     claim.setTarget(pywikibot.FilePage(commons,img))
-    item.addClaim(claim, summary=u"Commons2Data image")
+    item.addClaim(claim, summary="Commons2Data image")
     category = pywikibot.Category(commons, title)
-    item.setSitelink(category, summary=u'#FileToCat Commons sitelink.')
+    item.setSitelink(category, summary="#FileToCat Commons sitelink.")
     claim = pywikibot.Claim(repo, commonsCat)
     claim.setTarget(title)
-    item.addClaim(claim, summary=u'#FileToCat Commons claim')
+    item.addClaim(claim, summary="#FileToCat Commons claim")
 
 def label(item):
     title=""
