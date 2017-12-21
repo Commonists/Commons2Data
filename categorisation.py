@@ -25,7 +25,7 @@ duplicates=[depict]
 
 FILE_NAMESPACE = 6
 
-label_dict={"en":"The Dream", "de":"Der Traum"}
+label_dict={"en":"The Little Blue Horses", "de":"Die Kleinen Blauen Pferde", "sv":"Blå hästar"}
 descr_dict={"en":"Franz Marc painting", "fr":"Peinture de Franz Marc"}
 
 blackList=[u""]
@@ -63,15 +63,16 @@ def fusion_cat(tempCat,qitem=""):
                         item.addClaim(claim, summary=u'#Commons2Data adding claim')
             else:
                 print cat
-    title = label(item)+" (Franz Marc)"
+    title = label(item)
     print_category(item.title(), title, categories)
     categories.append("Category:"+tempCat)
     for image in page.members(namespaces=FILE_NAMESPACE):
         clean_image(image, title, categories)
     # Wikidata
-    claim = pywikibot.Claim(repo, imageProperty)
-    claim.setTarget(pywikibot.FilePage(commons,img))
-    item.addClaim(claim, summary=u"Commons2Data image")
+    if imageProperty not in item.claims:
+        claim = pywikibot.Claim(repo, imageProperty)
+        claim.setTarget(pywikibot.FilePage(commons,img))
+        item.addClaim(claim, summary=u"Commons2Data image")
     category = pywikibot.Category(commons, title)
     item.setSitelink(category, summary=u'#FileToCat Commons sitelink.')
     claim = pywikibot.Claim(repo, commonsCat)
@@ -112,4 +113,4 @@ def clean_image(image, title, removeList):
     image.text = t
     image.save("#FileToCat Image in its own category")
 
-fusion_cat("Lena temp1", "Q18685517")
+fusion_cat("Lena temp1", "Q30079741")
