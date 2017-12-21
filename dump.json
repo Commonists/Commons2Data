@@ -4081,6 +4081,42 @@
       }
     }
   },
+  "Category:1911 paintings": {
+    "Properties": {
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": {
+          "Year":1911
+        }
+      }
+    }
+  },
+  "Category:1913 paintings": {
+    "Properties": {
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": {
+          "Year":1913
+        }
+      }
+    }
+  },
+  "Category:1913 paintings in Germany": {
+    "Properties": {
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P571": {
+        "Value": {
+          "Year":1913
+        }
+      }
+    }
+  },
   "Category:1910 paintings in Germany": {
     "Properties": {
       "P31": {
@@ -4093,8 +4129,24 @@
       }
     }
   },
+  "Category:Paintings in the Staatsgalerie Stuttgart": {
+    "Properties": {
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P276": {
+        "Value": "Q14917275"
+      },
+      "P195": {
+        "Value": "Q14917275"
+      }
+    }
+  },
   "Category:Paintings in the Kelvingrove Art Gallery and Museum": {
     "Properties": {
+      "P31": {
+        "Value": "Q3305213"
+      },
       "P276": {
         "Timestamp": "2017-05-23 22:25:56.875929",
         "Value": "Q1061094"
@@ -7141,6 +7193,16 @@
       "P195": {
         "Timestamp": "2017-05-23 22:25:21.031765",
         "Value": "Q809600"
+      }
+    }
+  },
+  "Category:Paintings of cats": {
+    "Properties": {
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P180": {
+        "Value": "Q146"
       }
     }
   },
@@ -10898,6 +10960,82 @@
       },
       "P195": {
         "Value": "Q262234"
+      }
+    }
+  },
+  "Category:Paintings in the Kunstsammlung Nordrhein-Westfalen":{
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P195": {
+        "Value": "Q548427"
+      },
+      "P276": {
+        "Value": "Q548427"
+      }
+  },
+  "Category:Paintings of yellow cats by Franz Marc":{
+    "Properties": {
+      "P170": {
+        "Value": "Q44054"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P180": {
+        "Value": "Q146"
+      }
+    }
+  },
+  "Category:Paintings of red cats by Franz Marc": {
+    "Properties": {
+      "P170": {
+        "Value": "Q44054"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P180": {
+        "Value": "Q146"
+      }
+    }
+  },
+  "Category:Paintings of blue cats by Franz Marc": {
+    "Properties": {
+      "P170": {
+        "Value": "Q44054"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P180": {
+        "Value": "Q146"
+      }
+    }
+  },
+  "Category:Paintings of black and white cats by Franz Marc": {
+    "Properties": {
+      "P170": {
+        "Value": "Q44054"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P180": {
+        "Value": "Q146"
+      }
+    }
+  },
+  "Category:Paintings of cats by Franz Marc": {
+    "Properties": {
+      "P170": {
+        "Value": "Q44054"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P180": {
+        "Value": "Q146"
       }
     }
   },
