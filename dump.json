@@ -11,6 +11,36 @@
       }
     }
   },
+  "Category:Daum in Musée de l'École de Nancy": {
+    "Properties": {
+      "P276": {
+        "Value": "Q3277928"
+      },
+      "P195": {
+        "Value": "Q3277928"
+      },
+      "P170": {
+        "Value": "Q3017025"
+      }
+    }
+  },
+  "Category:Louis Majorelle": {
+    "Properties": {
+      "P170": {
+        "Value": "Q2537308"
+      }
+    }
+  },
+  "Category:Objects in the musée de l'École de Nancy": {
+    "Properties": {
+      "P276": {
+        "Value": "Q3277928"
+      },
+      "P195": {
+        "Value": "Q3277928"
+      }
+    }
+  },
   "Category:Art Gallery of New South Wales - European art": {
     "Properties": {
       "P276": {
@@ -149,7 +179,38 @@
       "Paintings by Vincent van Gogh by museum‎ "
     ]
   },
-  "Works by Vincent van Gogh in the Van Gogh Museum‎ ": {
+  "Category:Diosphos Painter": {
+    "Properties": {
+      "P170": {
+        "Value": "Q1227082"
+      }
+    }
+  },
+  "Category:Tarquinia Painter": {
+    "Properties": {
+      "P170": {
+        "Value": "Q7686622"
+      }
+    }
+  },
+  "Category:Kylixes": {
+    "Properties": {
+      "P31": {
+        "Value": "Q668349"
+      }
+    }
+  },
+  "Category:Greek antiquities in the Louvre - Room 39": {
+    "Properties": {
+      "P276": {
+        "Value": "Q224124"
+      },
+      "P195": {
+        "Value": "Q224124"
+      }
+    }
+  },
+  "Category:Works by Vincent van Gogh in the Van Gogh Museum‎ ": {
     "Properties": {
       "P170": {
         "Value": "Q5582"
@@ -264,6 +325,51 @@
       }
     }
   },
+  "Category:Embassy to Achilles": {
+    "Properties": {
+      "P180": {
+        "Value": "Q46995010"
+      }
+    }
+  },
+  "Category:Thistles in art": {
+    "Properties": {
+      "P180": {
+        "Value": "Q538906"
+      }
+    }
+  },
+  "Category:Egypt in art": {
+    "Properties": {
+      "P180": {
+        "Value": "Q79"
+      }
+    }
+  },
+  "Category:Paintings of Napoleon I": {
+    "Properties": {
+      "P31": {
+        "Value": "Q3305213"
+      },
+      "P180": {
+        "Value": "Q517"
+      }
+    }
+  },
+  "Category:Interior lighting in France": {
+    "Properties": {
+      "P31": {
+        "Value": "Q1138737"
+      }
+    }
+  },
+  "Category:Insects in art": {
+    "Properties": {
+      "P180": {
+        "Value": "Q1390"
+      }
+    }
+  },
   "Category:Red horses in art": {
     "Properties": {
       "P180": {
@@ -271,23 +377,23 @@
       }
     }
   },
-  "Category:Categories by style (flat list)": {
+  "Category:Historical paintings in the Hermitage": {
     "Properties": {
       "P276": {
-        "Timestamp": "2017-05-23 22:25:42.738003"
+        "Value": "Q132783"
       },
       "P195": {
-        "Timestamp": "2017-05-23 22:25:42.737929"
+        "Value": "Q132783"
       }
     }
   },
-  "Paintings by Hans von Aachen in the National Museum in Warsaw": {
+  "Category:French paintings in the Hermitage": {
     "Properties": {
       "P276": {
-        "Timestamp": "2017-05-23 22:18:01.400014"
+        "Value": "Q132783"
       },
       "P195": {
-        "Timestamp": "2017-05-23 22:18:01.399991"
+        "Value": "Q132783"
       }
     }
   },
@@ -340,16 +446,6 @@
       }
     }
   },
-  "Category:Education in the canton of Vaud": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:29:02.946271"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:29:02.946141"
-      }
-    }
-  },
   "Paintings by Vincent van Gogh in the Národní galerie v Praze": {
     "Properties": {
       "P276": {
@@ -377,16 +473,6 @@
       }
     }
   },
-  "Countries": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:17:29.455011"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:17:29.454830"
-      }
-    }
-  },
   "Category:Collections of the Philadelphia Museum of Art": {
     "Properties": {
       "P276": {
@@ -411,16 +497,6 @@
       }
     }
   },
-  "Category:Heritage of Switzerland": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:23:48.666645"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:23:48.666535"
-      }
-    }
-  },
   "ent Willem van Gogh 024.jpg": {
     "Parents": [
       "Paintings by Vincent van Gogh by museum‎ "
@@ -430,16 +506,6 @@
     "Parents": [
       "Paintings by Vincent van Gogh by museum‎ "
     ]
-  },
-  "Category:Paintings by museum by century": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:26:53.603845"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:26:53.603803"
-      }
-    }
   },
   "Paintings by Vincent van Gogh in the Solomon R. Guggenheim Museum": {
     "Properties": {
@@ -489,16 +555,6 @@
       "P195": {
         "Timestamp": "2017-05-23 22:24:32.291769",
         "Value": "Q1743116"
-      }
-    }
-  },
-  "Maintenance data structures": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:16:59.861357"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:16:59.861288"
       }
     }
   },
@@ -1263,30 +1319,10 @@
       "Paintings by Hans von Aachen by museum‎ "
     ]
   },
-  "Category:Paintings from the Netherlands by museum": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:22:07.583422"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:22:07.583351"
-      }
-    }
-  },
   "ent van Gogh - De tuin achter het huis van de moeder van Sien in Den Haag.jpg": {
     "Parents": [
       "Paintings by Vincent van Gogh by museum‎ "
     ]
-  },
-  "Category:Paintings by Vincent van Gogh in Israel": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:29:22.812275"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:29:22.812260"
-      }
-    }
   },
   " von Aachen 020.jpg": {
     "Parents": [
@@ -7276,6 +7312,58 @@
       }
     }
   },
+  "Category:People by name": {
+    "Properties": {
+      "P31": {
+        "Value": "Q5"
+      }
+    }
+  },
+  "Category:1956 births": {
+    "Properties": {
+      "P569": {
+        "Value": {
+          "Year":1956
+        }
+      }
+    }
+  },
+  "Category:People of Gästrikland": {
+    "Properties": {
+      "P31": {
+        "Value": "Q5"
+      },
+      "P19": {
+        "Value": "Q183459"
+      }
+    }
+  },
+  "Category:Female journalists from Sweden": {
+    "Properties": {
+      "P31": {
+        "Value": "Q5"
+      },
+      "P27": {
+        "Value": "Q34"
+      },
+      "P106": {
+        "Value": "Q1930187"
+      }
+    }
+  },
+  "Category:Female writers from Sweden": {
+    "Properties": {
+      "P31": {
+        "Value": "Q5"
+      },
+      "P27": {
+        "Value": "Q34"
+      },
+      "P106": {
+        "Value": "Q36180"
+      }
+    }
+  },
   "Gogh - Stillleben mit zwei Tüten und Flasche.jpeg": {
     "Parents": [
       "Paintings by Vincent van Gogh by museum‎ "
@@ -7402,6 +7490,16 @@
       }
     }
   },
+  "Category:Penitent Magdalene": {
+    "Properties": {
+      "P921": {
+        "Value": "Q5989722"
+      },
+      "P180": {
+        "Value": "Q63070"
+      }
+    }
+  },
   "Gogh - Der Sämann (nach Millet).jpeg": {
     "Parents": [
       "Paintings by Vincent van Gogh by museum‎ "
@@ -7452,7 +7550,17 @@
       }
     }
   },
-  "1887 paintings by Vincent van Gogh": {
+  "Category:Paintings by Georges de La Tour": {
+    "Properties": {
+      "P170": {
+        "Value": "Q203371"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      }
+    }
+  },
+  "Category:1887 paintings by Vincent van Gogh": {
     "Properties": {
       "P170": {
         "Value": "Q5582"
@@ -7464,7 +7572,7 @@
         "Value": {
           "Year":1887
           }
-        }
+      }
     }
   },
   "Gogh - Vase mit Rosen und anderen Blumen.jpeg": {
@@ -7516,6 +7624,59 @@
       }
     }
   },
+  "Category:Paintings In the Franz Marc Museum": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1448165"
+      },
+      "P195": {
+        "Value": "Q1448165"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      }
+    }
+  },
+  "Category:Winter in art": {
+    "Properties": {
+      "P180": {
+        "Value": "Q1311"
+      }
+    }
+  },
+  "Category:Haystacks in art": {
+    "Properties": {
+      "P180": {
+        "Value": "Q62577"
+      }
+    }
+  },
+  "Category:German paintings in the Detroit Institute of Arts": {
+    "Properties": {
+      "P276": {
+        "Value": "Q1201549"
+      },
+      "P195": {
+        "Value": "Q1201549"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      }
+    }
+  },
+  "Category:Paintings in the San Francisco Museum of Modern Art": {
+    "Properties": {
+      "P276": {
+        "Value": "Q913672"
+      },
+      "P195": {
+        "Value": "Q913672"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      }
+    }
+  },
   "Category:Paintings in Kunsthaus Zürich": {
     "Properties": {
       "P276": {
@@ -7525,6 +7686,9 @@
       "P195": {
         "Timestamp": "2017-05-23 22:23:53.992420",
         "Value": "Q685038"
+      },
+      "P31": {
+        "Value": "Q3305213"
       }
     }
   },
@@ -7874,7 +8038,7 @@
       }
     }
   },
-  "1882 paintings by Vincent van Gogh": {
+  "Category:1882 paintings by Vincent van Gogh": {
     "Properties": {
       "P170": {
         "Value": "Q5582"
@@ -7886,7 +8050,7 @@
         "Value": {
           "Year":1882
           }
-        }
+      }
     }
   },
   "Category:Nasjonalgalleriet": {
@@ -10816,6 +10980,9 @@
       "P195": {
         "Timestamp": "2017-05-23 22:27:24.537117",
         "Value": "Q650519"
+      },
+      "P31": {
+        "Value": "Q3305213"
       }
     }
   },
@@ -10826,16 +10993,29 @@
       },
       "P195": {
         "Timestamp": "2017-05-23 22:24:45.599843"
+      },
+      "P31": {
+        "Value": "Q3305213"
+      }
+    }
+  },
+  "Category:French paintings in the Metropolitan Museum of Art":{
+    "Properties": {
+      "P276": {
+        "Value":"Q160236"
+      },
+      "P195": {
+        "Value": "Q160236"
+      },
+      "P31": {
+        "Value": "Q3305213"
       }
     }
   },
   "Category:Paintings in Israel": {
     "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:29:22.812188"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:29:22.812162"
+      "P31": {
+        "Value": "Q3305213"
       }
     }
   },
@@ -11054,16 +11234,6 @@
       "Paintings by Vincent van Gogh by museum‎ "
     ]
   },
-  "Category:Museums in Shinjuku, Tokyo": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:29:14.720091"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:29:14.720020"
-      }
-    }
-  },
   "Category:Paintings at the Saint Louis Art Museum": {
     "Properties": {
       "P276": {
@@ -11076,36 +11246,6 @@
       }
     }
   },
-  "Category:Paintings in the Museu de Arte de São Paulo by century": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:26:55.043824"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:26:55.043760"
-      }
-    }
-  },
-  "Category:Categories of Paris by institution": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:27:22.891596"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:27:22.891513"
-      }
-    }
-  },
-  "Category:19th-century works in Italy": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:25:24.920879"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:25:24.920791"
-      }
-    }
-  },
   "Category:Dutch paintings in the National Gallery of Art": {
     "Properties": {
       "P276": {
@@ -11115,16 +11255,6 @@
       "P195": {
         "Timestamp": "2017-05-23 22:27:44.402640",
         "Value": "Q214867"
-      }
-    }
-  },
-  "Category:Paintings of Norway": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:27:36.000651"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:27:36.000632"
       }
     }
   },
@@ -11143,15 +11273,5 @@
     ],
     "Properties": {},
     "Children": []
-  },
-  "Category:Art works in Japan by century": {
-    "Properties": {
-      "P276": {
-        "Timestamp": "2017-05-23 22:25:48.987713"
-      },
-      "P195": {
-        "Timestamp": "2017-05-23 22:25:48.987617"
-      }
-    }
   }
 }
