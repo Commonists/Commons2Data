@@ -1,5 +1,5 @@
 # Commons2Data
-Transpose the semantics of Wikimedia Cmmons categories into Wikidata statements
+Transpose the semantics of Wikimedia Commons categories into Wikidata statements
 
 The end-goal is to have all the knowledge stored as categories and the category tree synced with Wikidata. Imagine a world in which we would have dynamic, request-based, multilingual categories instead of static, English-but-not-always, "1880s paintings in France of women in red dresses facing right" categories.
 
@@ -16,5 +16,5 @@ From a Commons category, we
 # What it needs
 * Moving to Tool Labs and working with dumps
 * Improving the algorithm (mixing reading and writing ? Multithread ? Better tree exploration ?)
-* Creating a UI to collects the category->facts translation
+* Creating a UI to collect the category->facts translation
 * Dynamic facts within the tree (a daughter category has all the statements of its mother + some)
