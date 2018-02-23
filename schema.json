@@ -8,7 +8,7 @@
             "properties":{
                 "Meta":{
                     "type":"boolean"
-                }
+                },
                 "Parents":{
                     "type":"array",
                     "item":{
@@ -19,6 +19,18 @@
                     "type":"array",
                     "item":{
                         "type":"string"
+                    }
+                },
+                "Image":{
+                    "title":"image",
+                    "type":"object",
+                    "properties":{
+                        "file":{
+                            "type":"string"
+                        },
+                        "Timestamp":{
+                            "type":"string"
+                        }
                     }
                 },
                 "Properties":{
