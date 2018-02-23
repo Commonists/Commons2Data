@@ -3,12 +3,20 @@ from __future__ import unicode_literals
 from __future__ import division
 from __future__ import print_function
 
-import codecs
-import json
-import pywikibot
-import sys
 import re
+import sys
+import json
+import codecs
+import logging
+import pywikibot
 from pywikibot import page
+
+LOG =  logging.getLogger(name=__name__)
+HANDLER = logging.StreamHandler(stream=sys.stdout)
+HANDLER.setFormatter(logging.Formatter('%(asctime)s    %(module)s    %(levelname)s    %(message)s'))
+HANDLER.setLevel(logging.DEBUG)
+LOG.addHandler(HANDLER)
+LOG.setLevel(logging.DEBUG)
 
 commons = pywikibot.Site('commons', 'commons')
 wikidata = pywikibot.Site("wikidata", "wikidata")
@@ -40,7 +48,7 @@ blackList=["Category:Rituels grecs – Une expérience sensible","Category:Detai
 def hidden(category):
     return "Category:Hidden categories" in [c.title() for c in category.categories()]
 
-def fusion_cat(tempCat,qitem="", cat_name="", label_dict={}, descr_dict={}, objectCat=True, createCat=True):
+def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objectCat=True, createCat=True):
     categories=[]
     img = None
     item = None
@@ -173,9 +181,20 @@ def item_of(file):
     result = []
 
 
-#creators_of("Attic black-figure vase-painters")
+def main():
+    file_name = "User:Donna Nobot/clusterArtworks/inp"
+    height=1
+    if len(sys.argv) > 1:
+        file_name = sys.argv[1]
+    page = pywikibot.Page(commons, file_name)
+    if page.isCategory():
+        LOG.info("Clustering files from a temp category %s", file_name)
+        blackList.add(file_name)
+        fusion_cat([image for image in page.members(namespaces=FILE_NAMESPACE)])
+    else: # galleries
+        LOG.info(u"Clustering files from a galleries at %s", file_name)
+        regex = u"<gallery mode=\"packed\">[\w|\s|:|.|,|-|é]+</gallery>"
+        LOG.info("Found %d clusters",len(re.findall(regex, page.text)))
 
-fusion_cat("Lena temp4", "", "The Penitent Magdalen",
-    {"en":"The Penitent Magdalen,"},
-    {"en":"Georges de la Tour painting"},
-    True, True)
+if __name__ == '__main__':
+    main()
