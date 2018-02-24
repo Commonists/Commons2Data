@@ -5,9 +5,12 @@ from __future__ import print_function
 
 import codecs
 import json
+import logging
 import pywikibot
 import sys
 import re
+import bs4
+from bs4 import BeautifulSoup
 from pywikibot import page
 
 commons = pywikibot.Site('commons', 'commons')
@@ -37,15 +40,21 @@ CREATOR_NAMESPACE = 100
 
 blackList=["Category:Rituels grecs – Une expérience sensible","Category:Details of paintings by Georges de La Tour"]
 
+LOG =  logging.getLogger(name=__name__)
+HANDLER = logging.StreamHandler(stream=sys.stdout)
+HANDLER.setFormatter(logging.Formatter('%(asctime)s    %(module)s    %(levelname)s    %(message)s'))
+HANDLER.setLevel(logging.DEBUG)
+LOG.addHandler(HANDLER)
+LOG.setLevel(logging.DEBUG)
+
 def hidden(category):
     return "Category:Hidden categories" in [c.title() for c in category.categories()]
 
-def fusion_cat(tempCat,qitem="", cat_name="", label_dict={}, descr_dict={}, objectCat=True, createCat=True):
+def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objectCat=True, createCat=True):
     categories=[]
     img = None
     item = None
-    page = pywikibot.Category(commons, tempCat)
-    for image in page.members(namespaces=FILE_NAMESPACE):
+    for image in images:
         img = image.title()[5:]
         for cat in image.categories():
             if createCat:
@@ -84,10 +93,12 @@ def fusion_cat(tempCat,qitem="", cat_name="", label_dict={}, descr_dict={}, obje
     title = cat_name
     if title is "":
         title = label(item)
+    if title is "":
+        title = re.split("\.|:",images[0].title())[1]
     if createCat:
         print_category(item.title(), title, categories,objectCat)
-        categories.append("Category:"+tempCat)
-        for image in page.members(namespaces=FILE_NAMESPACE):
+        categories.append(blackList[-1])
+        for image in images:
             clean_image(image, title, categories)
     # Wikidata
     if imageProperty not in item.claims:
@@ -133,7 +144,7 @@ def print_category(item, title, addList, objectCat=True):
 def clean_image(image, title, removeList):
     t = image.text
     for r in removeList:
-        pattern = re.compile("\[\["+r+"(\|\w+)?\]\]")
+        pattern = re.compile("\[\["+r+"(\|(\w|>)+)?\]\]")
         s = re.search(pattern, t)
         if s is not None:
             t = t.replace(s.group(0),"")
@@ -172,10 +183,23 @@ def item_of(category_name):
 def item_of(file):
     result = []
 
+def main():
+    file_name = "User:Donna Nobot/clusterArtworks/input"
+    if len(sys.argv) > 1:
+        file_name = sys.argv[1]
+    p = pywikibot.Page(commons, file_name)
+    if p.isCategory():
+        LOG.info("Examining files on temp category %s", file_name)
+        blackList.add(file_name)
+        fusion_cat(p.members(namespaces=FILE_NAMESPACE))
+    else:
+        LOG.info("Examining galleries on page %s", file_name)
+        soup = BeautifulSoup(p.text, 'html.parser')
+        filess = [re.split("\n", soup.contents[i].contents[0])[1:-1] for i in range(len(soup.contents)) if isinstance(soup.contents[i], bs4.element.Tag)]
+        LOG.info("Found %d galleries", len(filess))
+        print(filess)
+        for files in filess:
+            fusion_cat([pywikibot.Page(commons, file) for file in files])
 
-#creators_of("Attic black-figure vase-painters")
-
-fusion_cat("Lena temp4", "", "The Penitent Magdalen",
-    {"en":"The Penitent Magdalen,"},
-    {"en":"Georges de la Tour painting"},
-    True, True)
+if __name__ == '__main__':
+    main()
