@@ -6,6 +6,7 @@ from __future__ import print_function
 import codecs
 import json
 import logging
+import requests
 import pywikibot
 import sys
 import re
@@ -64,7 +65,7 @@ def harvestPage(filename):
             t = d["Title"][0][0]["params"]
             result["label"]={}
             for key in t:
-                result["label"][key]=t[key][0][0]}
+                result["label"][key]=t[key][0][0]
     return result
 
 
@@ -116,9 +117,7 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
             print (cat)
     title = cat_name
     if title is "":
-        title = label(item)
-    if title is "":
-        title = re.split("\.|:",images[0].title())[1]
+        title = info["label"]["en"]
     if createCat:
         print_category(item.title(), title, categories,objectCat)
         categories.append(blackList[-1])
@@ -135,30 +134,13 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
     claim.setTarget(title)
     item.addClaim(claim, summary="#FileToCat Commons claim")
 
-def label(item):
-    title=""
-    if u"en" in item.labels:
-        title = item.labels["en"]
-    elif u"fr" in item.labels:
-        title = item.labels["fr"]
-    if catalog in item.claims:
-        if item.claims[catalog][0].target is not None:
-            title = title+" ("+item.claims[catalog][0].target+")"
-        elif item.claims[catalog][1].target is not None:
-            title = title+" ("+item.claims[catalog][1].target+")"
-    elif inventory in item.claims:
-        title = title+" ("+item.claims[inventory][0].target+")"
-    elif creator in item.claims:
-        itemAuthor = item.claims[creator][0].target
-        itemAuthor.get()
-        title = title+" ("+itemAuthor.labels["en"]+")"
-    return title
 
 def print_category(item, title, addList, objectCat=True):
+    print (title)
     if title is not "":
         result = ""
         if item is not "" and objectCat:
-            result = "<onlyinclude>\n{{User:Rama/Catdef|"+item+"}}\n</onlyinclude>"
+            result = "{{Wikidata Infobox}}"
         category = pywikibot.Category(commons, title)
         for add in addList:
             result = result+"\n[["+add+"]]"
@@ -168,7 +150,7 @@ def print_category(item, title, addList, objectCat=True):
 def clean_image(image, title, removeList):
     t = image.text
     for r in removeList:
-        pattern = re.compile("\[\["+r+"(\|(\w|>)+)?\]\]")
+        pattern = re.compile("\[\["+r+"(\|(\w|;|>)+)?\]\]")
         s = re.search(pattern, t)
         if s is not None:
             t = t.replace(s.group(0),"")
@@ -176,46 +158,18 @@ def clean_image(image, title, removeList):
     image.text = t
     image.save("#FileToCat Image in its own category")
 
-def creator_of(category):
-    try:
-        creator = category.members(namespaces=CREATOR_NAMESPACE).next()
-        if re.search(itemExpression, creator.text) is not None:
-            return re.search(itemExpression, creator.text).group(0)
-        else:
-            return None
-    except StopIteration:
-        return None
-
-def creators_of(category_name):
-    category = pywikibot.Category(commons, category_name)
-    for subcat in category.subcategories():
-        item = creator_of(subcat)
-        if item is not None:
-            dict_creator[subcat.title()]={
-            "Properties":{"P170":{"Value":item.title()}},
-            "Parents":[category_name]}
-        else:
-            missing.append(subcat.title())
-    with open ("creators.json", "w") as data:
-        json.dump(dict_creator, data, indent=2, ensure_ascii=False)
-    with open ("missing.json", "w") as data:
-        json.dump({"Missing":missing},data, indent=2, ensure_ascii=False)
-
-def item_of(category_name):
-    category = pywikibot.Category(commons, category_name)
-
-def item_of(file):
-    result = []
-
 def main():
-    file_name = "User:Donna Nobot/clusterArtworks/input"
+    file_name = "Category:Lena temp2"
     if len(sys.argv) > 1:
         file_name = sys.argv[1]
     p = pywikibot.Page(commons, file_name)
     if p.isCategory():
         LOG.info("Examining files on temp category %s", file_name)
-        blackList.add(file_name)
-        fusion_cat(p.members(namespaces=FILE_NAMESPACE))
+        blackList.append(file_name)
+        cat = pywikibot.Category(p)
+        fusion_cat([m for m in cat.members(namespaces=FILE_NAMESPACE)],
+            cat_name="",
+            qitem="Q56528669")
     else:
         LOG.info("Examining galleries on page %s", file_name)
         soup = BeautifulSoup(p.text, 'html.parser')
