@@ -51,6 +51,8 @@ HANDLER.setLevel(logging.DEBUG)
 LOG.addHandler(HANDLER)
 LOG.setLevel(logging.DEBUG)
 
+def sanitize(title):
+    return title.replace("'","")
 
 def harvestPage(filename):
     json=requests.get(commonsedge+filename).json()
@@ -59,13 +61,15 @@ def harvestPage(filename):
         d = json["error_data"][0]["params"]
         if "description" in d:
             lang = d["description"][0][0]["name"].lower()
-            title = d["description"][0][0]["params"]["1"][0][0]
+            title = sanitize(d["description"][0][0]["params"]["1"][0][0])
             result["label"]={lang:title}
         if "Title" in d:
             t = d["Title"][0][0]["params"]
             result["label"]={}
             for key in t:
-                result["label"][key]=t[key][0][0]
+                result["label"][key]=sanitize(t[key][0][0])
+        if "title" in d:
+            result["label"]={"en":sanitize(d["title"][0][0])}
     return result
 
 
@@ -79,7 +83,7 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
     info = {"label":label_dict}
     for image in images:
         img = image.title()[5:]
-        if not any(info["label"]):
+        if "label" not in info or not any(info["label"]):
             info = harvestPage(img)
         for cat in image.categories():
             if createCat:
@@ -169,7 +173,7 @@ def main():
         cat = pywikibot.Category(p)
         fusion_cat([m for m in cat.members(namespaces=FILE_NAMESPACE)],
             cat_name="",
-            qitem="")
+            qitem="Q56529064")
     else:
         LOG.info("Examining galleries on page %s", file_name)
         soup = BeautifulSoup(p.text, 'html.parser')
