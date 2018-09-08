@@ -169,7 +169,7 @@ def main():
         cat = pywikibot.Category(p)
         fusion_cat([m for m in cat.members(namespaces=FILE_NAMESPACE)],
             cat_name="",
-            qitem="Q56528669")
+            qitem="")
     else:
         LOG.info("Examining galleries on page %s", file_name)
         soup = BeautifulSoup(p.text, 'html.parser')
