@@ -13,6 +13,8 @@ import bs4
 from bs4 import BeautifulSoup
 from pywikibot import page
 
+
+commonsedge = "https://tools.wmflabs.org/commonsedge/api.php?file="
 commons = pywikibot.Site('commons', 'commons')
 wikidata = pywikibot.Site("wikidata", "wikidata")
 repo = wikidata.data_repository()
@@ -24,6 +26,7 @@ dict_creator = {}
 missing = []
 
 cache = json.loads(open("dump.json").read())
+
 
 #Properties
 catalog = "P528"
@@ -47,6 +50,24 @@ HANDLER.setLevel(logging.DEBUG)
 LOG.addHandler(HANDLER)
 LOG.setLevel(logging.DEBUG)
 
+
+def harvestPage(filename):
+    json=requests.get(commonsedge+filename).json()
+    result={}
+    if "error" in json and "Artwork" in json["error"]:
+        d = json["error_data"][0]["params"]
+        if "description" in d:
+            lang = d["description"][0][0]["name"].lower()
+            title = d["description"][0][0]["params"]["1"][0][0]
+            result["label"]={lang:title}
+        if "Title" in d:
+            t = d["Title"][0][0]["params"]
+            result["label"]={}
+            for key in t:
+                result["label"][key]=t[key][0][0]}
+    return result
+
+
 def hidden(category):
     return "Category:Hidden categories" in [c.title() for c in category.categories()]
 
@@ -54,8 +75,11 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
     categories=[]
     img = None
     item = None
+    info = {"label":label_dict}
     for image in images:
         img = image.title()[5:]
+        if not any(info["label"]):
+            info = harvestPage(img)
         for cat in image.categories():
             if createCat:
                 if cat.title() not in blackList and not hidden(cat):
@@ -71,7 +95,7 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
         item.get()
     else:
         item = pywikibot.ItemPage(wikidata)
-        item.editLabels(label_dict, summary="#Commons2Data label")
+        item.editLabels(info["label"], summary="#Commons2Data label")
         item.editDescriptions(descr_dict, summary="#Commons2Data description")
         item.get()
     for cat in categories:
