@@ -36,6 +36,8 @@ commonsCat = "P373"
 imageProperty = "P18"
 depict = "P180"
 creator = "P170"
+collection = "P195"
+localization = "P276"
 
 duplicates=[depict, creator]
 
@@ -51,8 +53,22 @@ HANDLER.setLevel(logging.DEBUG)
 LOG.addHandler(HANDLER)
 LOG.setLevel(logging.DEBUG)
 
-def sanitize(title):
-    return title.replace("'","")
+def sanitize(word):
+    return word.replace("'","")
+
+def institution(d):
+    inst = None
+    if 'institution' in d:
+        inst = d['institution'][0][0]['name']
+    elif 'Institution' in d:
+        inst = d['Institution'][0][0]['name']
+    if inst is not None:
+        page = pywikibot.Page(commons, inst)
+        if page.isRedirectPage():
+            page = page.getRedirectTarget()
+        return re.search(itemExpression, page.text).group(0)
+    else:
+        return None
 
 def harvestPage(filename):
     json=requests.get(commonsedge+filename).json()
@@ -60,16 +76,30 @@ def harvestPage(filename):
     if "error" in json and "Artwork" in json["error"]:
         d = json["error_data"][0]["params"]
         if "description" in d:
-            lang = d["description"][0][0]["name"].lower()
-            title = sanitize(d["description"][0][0]["params"]["1"][0][0])
-            result["label"]={lang:title}
+            if "name" in d["description"][0][0]:
+                lang = d["description"][0][0]["name"].lower()
+                title = sanitize(d["description"][0][0]["params"]["1"][0][0])
+                result["label"]={lang:title}
+            else:
+                result["label"]={"en":sanitize(d["description"][0][0])}
         if "Title" in d:
             t = d["Title"][0][0]["params"]
             result["label"]={}
             for key in t:
                 result["label"][key]=sanitize(t[key][0][0])
         if "title" in d:
-            result["label"]={"en":sanitize(d["title"][0][0])}
+            if 'params' in d["title"][0][0]:
+                t = d["title"][0][0]["params"]
+                result["label"]={}
+                for key in t:
+                    if key not in [u'lang', u'1']:
+                        result["label"][key]=sanitize(t[key][0][0])
+            else:
+                result["label"]={"en":sanitize(d["title"][0][0])}
+        inst = institution(d)
+        if inst:
+            result[collection]=inst
+            result[localization]=inst
     return result
 
 
@@ -114,17 +144,12 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
                         else:
                             claim.setTarget(pywikibot.WbTime(year=cache[cat]["Properties"][p]["Value"]["Year"]))
                         item.addClaim(claim, summary=u'#Commons2Data adding claim')
-                    else:
-                        print (cat)
-                        print (p)
-        else:
-            print (cat)
-    title = cat_name
-    if title is "":
-        title = info["label"]["en"]
+    title = info["label"]["en"]
+    LOG.info(title)
     if createCat:
         print_category(item.title(), title, categories,objectCat)
-        categories.append(blackList[-1])
+        categories.append(blackList[0])
+        LOG.info("Will remove "+blackList[0])
         for image in images:
             clean_image(image, title, categories)
     # Wikidata
@@ -140,7 +165,7 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
 
 
 def print_category(item, title, addList, objectCat=True):
-    print (title)
+    LOG.info("Creating Commons category "+title)
     if title is not "":
         result = ""
         if item is not "" and objectCat:
@@ -163,17 +188,17 @@ def clean_image(image, title, removeList):
     image.save("#FileToCat Image in its own category")
 
 def main():
-    file_name = "Category:Lena temp2"
+    file_name = "Category:Lena temp1"
     if len(sys.argv) > 1:
         file_name = sys.argv[1]
     p = pywikibot.Page(commons, file_name)
     if p.isCategory():
         LOG.info("Examining files on temp category %s", file_name)
-        blackList.append(file_name)
+        blackList.insert(0, file_name)
         cat = pywikibot.Category(p)
         fusion_cat([m for m in cat.members(namespaces=FILE_NAMESPACE)],
             cat_name="",
-            qitem="Q56529064")
+            qitem="Q56880840")
     else:
         LOG.info("Examining galleries on page %s", file_name)
         soup = BeautifulSoup(p.text, 'html.parser')
