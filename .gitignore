@@ -1,5 +1,6 @@
 throttle.ctrl
 apicache/
+apicache-py2/
 output/
 user-config.py
 test.py

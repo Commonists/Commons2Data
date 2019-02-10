@@ -1,5 +1,67 @@
 {
-  "Paintings by Aelbert Cuyp in the Museum of Fine Arts, Ghent": {
+  "Category:Paintings by John William Godward":{
+    "Properties":{
+      "P31":{
+        "Value":"Q3305213"
+      },
+      "P170":{
+        "Value":"Q464999"
+      }
+    }
+  },
+  "Category:Sculptures by Aristide Maillol":{
+    "Properties":{
+      "P31":{
+        "Value":"Q860861"
+      },
+      "P170":{
+        "Value":"Q153920"
+      }
+    }
+  },
+  "Category:Sculptures by Auguste Rodin":{
+    "Properties":{
+      "P31":{
+        "Value":"Q860861"
+      },
+      "P170":{
+        "Value":"Q30755"
+      }
+    }
+  },
+  "Category:Sculptures by Auguste Rodin in the Musée d'Orsay":{
+    "Properties":{
+      "P31":{
+        "Value":"Q860861"
+      },
+      "P170":{
+        "Value":"Q30755"
+      },
+      "P276":{
+        "Value":"Q23402"
+      },
+      "P195":{
+        "Value":"Q23402"
+      }
+    }
+  },
+  "Category:Sculptures by Aristide Maillol in the Musée d'Orsay":{
+    "Properties":{
+      "P31":{
+        "Value":"Q860861"
+      },
+      "P170":{
+        "Value":"Q153920"
+      },
+      "P276":{
+        "Value":"Q23402"
+      },
+      "P195":{
+        "Value":"Q23402"
+      }
+    }
+  },
+  "Category:Paintings by Aelbert Cuyp in the Museum of Fine Arts, Ghent": {
     "Properties": {
       "P276": {
         "Timestamp": "2017-05-23 11:52:41.784000",
