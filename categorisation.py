@@ -180,6 +180,10 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
             info["label"]["en"]=item.labels["en"]
         if 'fr' in item.labels:
             info["label"]["fr"]=item.labels["fr"]
+        if creator in item.claims:
+            creatorItem = item.claims[creator][0].getTarget()
+            creatorItem.get()
+            info[creator]=creatorItem.labels["en"]
     else:
         item = pywikibot.ItemPage(wikidata)
         LOG.info("Languages of labels")
@@ -203,7 +207,7 @@ def fusion_cat(images,qitem="", cat_name="", label_dict={}, descr_dict={}, objec
     else:
         title = info["label"]["fr"]
     if creator in info:
-        title = title + info['artist']
+        title = title + " ("+info[creator]+")"
     if createCat:
         print_category(item.title(), title, categories,objectCat)
         categories.append(blackList[0])
@@ -270,8 +274,8 @@ def item_of(file):
 
 
 def main():
-    file_name = "Category:Lena temp1"
-    q_item = "Q50807788"
+    file_name = "Category:Lena temp5"
+    q_item = "Q51579215"
     temp = True
     harvestImages = False
     if len(sys.argv) > 1:
